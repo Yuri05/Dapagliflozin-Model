@@ -1301,10 +1301,7 @@
       "Parameters": [
         {
           "Name": "Cl",
-          "Value": 1.0,
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
+          "Value": 1.0
         },
         {
           "Name": "Molecular weight",
@@ -1866,7 +1863,7 @@
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)"
       ],
-      "Individual": "Standard_Adult_Veri",
+      "Individual": "Standard_Adult_UGT",
       "Compounds": [
         {
           "Name": "Dapagliflozin",
@@ -2049,7 +2046,7 @@
         "Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)",
         "Organism|Kidney|Urine|Dapagliflozin|Fraction excreted to urine"
       ],
-      "Individual": "Standard_Adult_Veri",
+      "Individual": "Standard_Adult_UGT",
       "Compounds": [
         {
           "Name": "Dapagliflozin",
@@ -2367,7 +2364,7 @@
         "Organism|Lumen|Feces|Dapagliflozin|Fraction excreted to feces",
         "Organism|Kidney|Urine|Dapagliflozin|Fraction excreted to urine"
       ],
-      "Individual": "Standard_Adult_Veri",
+      "Individual": "Standard_Adult_UGT",
       "Compounds": [
         {
           "Name": "Dapagliflozin",
@@ -2720,7 +2717,7 @@
         "Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)",
         "Organism|Kidney|Urine|Dapagliflozin|Fraction excreted to urine"
       ],
-      "Individual": "Standard_Adult_Veri",
+      "Individual": "Standard_Adult_UGT",
       "Compounds": [
         {
           "Name": "Dapagliflozin",
@@ -2946,7 +2943,7 @@
         "Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)",
         "Organism|Kidney|Urine|Dapagliflozin|Fraction excreted to urine"
       ],
-      "Individual": "Standard_Adult_Veri",
+      "Individual": "Standard_Adult_UGT",
       "Compounds": [
         {
           "Name": "Dapagliflozin",
@@ -3163,7 +3160,7 @@
         "Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)",
         "Organism|Kidney|Urine|Dapagliflozin|Fraction excreted to urine"
       ],
-      "Individual": "Standard_Adult_Veri",
+      "Individual": "Standard_Adult_UGT",
       "Compounds": [
         {
           "Name": "Dapagliflozin",
@@ -3401,7 +3398,7 @@
         "Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)",
         "Organism|Kidney|Urine|Dapagliflozin|Fraction excreted to urine"
       ],
-      "Individual": "Standard_Adult_Veri",
+      "Individual": "Standard_Adult_UGT",
       "Compounds": [
         {
           "Name": "Dapagliflozin",
@@ -3627,7 +3624,7 @@
         "Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)",
         "Organism|Kidney|Urine|Dapagliflozin|Fraction excreted to urine"
       ],
-      "Individual": "Standard_Adult_Veri",
+      "Individual": "Standard_Adult_UGT",
       "Compounds": [
         {
           "Name": "Dapagliflozin",
@@ -3831,7 +3828,7 @@
         "Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)",
         "Organism|Kidney|Urine|Dapagliflozin|Fraction excreted to urine"
       ],
-      "Individual": "Standard_Adult_Veri",
+      "Individual": "Standard_Adult_UGT",
       "Compounds": [
         {
           "Name": "Dapagliflozin",
@@ -4041,7 +4038,7 @@
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)"
       ],
-      "Individual": "Standard_Adult_Veri",
+      "Individual": "Standard_Adult_UGT",
       "Compounds": [
         {
           "Name": "Dapagliflozin",
@@ -4231,7 +4228,7 @@
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)"
       ],
-      "Individual": "Standard_Adult_Veri",
+      "Individual": "Standard_Adult_UGT",
       "Compounds": [
         {
           "Name": "Dapagliflozin",
@@ -4477,7 +4474,7 @@
         "Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)",
         "Organism|Kidney|Urine|Dapagliflozin|Fraction excreted to urine"
       ],
-      "Individual": "Standard_Adult_Veri",
+      "Individual": "Standard_Adult_UGT",
       "Compounds": [
         {
           "Name": "Dapagliflozin",
@@ -4555,6 +4552,7 @@
             },
             {
               "Unit": "",
+              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -4746,7 +4744,7 @@
         "Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)",
         "Organism|Kidney|Urine|Dapagliflozin|Fraction excreted to urine"
       ],
-      "Individual": "Standard_Adult_Veri",
+      "Individual": "Standard_Adult_UGT",
       "Compounds": [
         {
           "Name": "Dapagliflozin",
@@ -4824,6 +4822,7 @@
             },
             {
               "Unit": "",
+              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -5015,7 +5014,7 @@
         "Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)",
         "Organism|Kidney|Urine|Dapagliflozin|Fraction excreted to urine"
       ],
-      "Individual": "Standard_Adult_Veri",
+      "Individual": "Standard_Adult_UGT",
       "Compounds": [
         {
           "Name": "Dapagliflozin",
@@ -5093,6 +5092,7 @@
             },
             {
               "Unit": "",
+              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -5284,7 +5284,7 @@
         "Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)",
         "Organism|Kidney|Urine|Dapagliflozin|Fraction excreted to urine"
       ],
-      "Individual": "Standard_Adult_Veri",
+      "Individual": "Standard_Adult_UGT",
       "Compounds": [
         {
           "Name": "Dapagliflozin",
@@ -5362,6 +5362,7 @@
             },
             {
               "Unit": "",
+              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -5553,7 +5554,7 @@
         "Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)",
         "Organism|Kidney|Urine|Dapagliflozin|Fraction excreted to urine"
       ],
-      "Individual": "Standard_Adult_Veri",
+      "Individual": "Standard_Adult_UGT",
       "Compounds": [
         {
           "Name": "Dapagliflozin",
@@ -5631,6 +5632,7 @@
             },
             {
               "Unit": "",
+              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -5756,7 +5758,7 @@
         "Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)",
         "Organism|Kidney|Urine|Dapagliflozin|Fraction excreted to urine"
       ],
-      "Individual": "Standard_Adult_Veri",
+      "Individual": "Standard_Adult_UGT",
       "Compounds": [
         {
           "Name": "Dapagliflozin",
@@ -5843,6 +5845,7 @@
             },
             {
               "Unit": "",
+              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -5956,7 +5959,7 @@
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)"
       ],
-      "Individual": "Standard_Adult_Veri",
+      "Individual": "Standard_Adult_UGT",
       "Compounds": [
         {
           "Name": "Dapagliflozin",
@@ -6100,11 +6103,11 @@
             },
             {
               "Name": "maxiter",
-              "Value": 200
+              "Value": 200.0
             },
             {
               "Name": "maxfev",
-              "Value": 0
+              "Value": 0.0
             },
             {
               "Name": "epsfcn",
@@ -7353,11 +7356,11 @@
             },
             {
               "Name": "maxiter",
-              "Value": 200
+              "Value": 200.0
             },
             {
               "Name": "maxfev",
-              "Value": 0
+              "Value": 0.0
             },
             {
               "Name": "epsfcn",
@@ -8521,11 +8524,11 @@
             },
             {
               "Name": "maxiter",
-              "Value": 200
+              "Value": 200.0
             },
             {
               "Name": "maxfev",
-              "Value": 0
+              "Value": 0.0
             },
             {
               "Name": "epsfcn",
@@ -9657,11 +9660,11 @@
             },
             {
               "Name": "maxiter",
-              "Value": 200
+              "Value": 200.0
             },
             {
               "Name": "maxfev",
-              "Value": 0
+              "Value": 0.0
             },
             {
               "Name": "epsfcn",
@@ -10828,11 +10831,11 @@
             },
             {
               "Name": "maxiter",
-              "Value": 200
+              "Value": 200.0
             },
             {
               "Name": "maxfev",
-              "Value": 0
+              "Value": 0.0
             },
             {
               "Name": "epsfcn",
@@ -11411,10 +11414,9 @@
             "MolWeight": 408.87
           },
           "Values": [
-            18.9
+            0.189
           ],
-          "Dimension": "Fraction",
-          "Unit": "%"
+          "Dimension": "Fraction"
         }
       ],
       "BaseGrid": {
@@ -11526,10 +11528,9 @@
             "MolWeight": 408.87
           },
           "Values": [
-            1.23
+            0.0123000005
           ],
-          "Dimension": "Fraction",
-          "Unit": "%"
+          "Dimension": "Fraction"
         }
       ],
       "BaseGrid": {
@@ -11641,10 +11642,9 @@
             "MolWeight": 0.0
           },
           "Values": [
-            9.1
+            0.0910000056
           ],
-          "Dimension": "Fraction",
-          "Unit": "%"
+          "Dimension": "Fraction"
         }
       ],
       "BaseGrid": {
@@ -11756,10 +11756,9 @@
             "MolWeight": 585.0
           },
           "Values": [
-            5.5
+            0.055
           ],
-          "Dimension": "Fraction",
-          "Unit": "%"
+          "Dimension": "Fraction"
         }
       ],
       "BaseGrid": {
@@ -11871,10 +11870,9 @@
             "MolWeight": 585.0
           },
           "Values": [
-            61.4
+            0.614
           ],
-          "Dimension": "Fraction",
-          "Unit": "%"
+          "Dimension": "Fraction"
         }
       ],
       "BaseGrid": {
@@ -13610,23 +13608,23 @@
             "MolWeight": 408.87
           },
           "Values": [
-            52.07948,
-            123.4999,
-            152.5223,
-            152.5223,
-            116.5914,
-            98.09947,
-            66.83439,
-            46.41589,
-            25.11886,
-            15.25223,
-            8.576959,
-            3.758374,
-            2.196174,
-            1.467799
+            0.05207948,
+            0.1234999,
+            0.1525223,
+            0.1525223,
+            0.1165914,
+            0.09809947,
+            0.06683439,
+            0.0464158878,
+            0.02511886,
+            0.01525223,
+            0.008576958,
+            0.00375837414,
+            0.00219617388,
+            0.001467799
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -13751,23 +13749,23 @@
             "MolWeight": 408.87
           },
           "Values": [
-            39.35875,
-            112.0951,
-            125.6532,
-            116.4436,
-            98.11503,
-            79.58412,
-            50.40566,
-            36.47401,
-            20.60865,
-            10.7909,
-            7.099695,
-            3.253844,
-            2.689999,
-            1.640122
+            0.03935875,
+            0.1120951,
+            0.1256532,
+            0.116443604,
+            0.0981150344,
+            0.07958412,
+            0.05040566,
+            0.0364740081,
+            0.02060865,
+            0.0107909,
+            0.007099695,
+            0.003253844,
+            0.002689999,
+            0.001640122
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -14538,17 +14536,17 @@
             "MolWeight": 408.87
           },
           "Values": [
-            30.7500019,
-            37.875,
-            21.375,
-            13.5,
-            9.75,
-            6.0,
-            4.5,
-            3.375
+            0.03075,
+            0.037875,
+            0.021375,
+            0.0135,
+            0.00975,
+            0.006,
+            0.0045,
+            0.003375
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -14980,10 +14978,9 @@
             "MolWeight": 585.0
           },
           "Values": [
-            78.8
+            0.788000047
           ],
-          "Dimension": "Fraction",
-          "Unit": "%"
+          "Dimension": "Fraction"
         }
       ],
       "BaseGrid": {
@@ -15095,10 +15092,9 @@
             "MolWeight": 585.0
           },
           "Values": [
-            7.0
+            0.07
           ],
-          "Dimension": "Fraction",
-          "Unit": "%"
+          "Dimension": "Fraction"
         }
       ],
       "BaseGrid": {
@@ -15460,18 +15456,18 @@
             "MolWeight": 408.87
           },
           "Values": [
-            61.5235062,
-            110.6205,
-            86.49406,
-            59.23832,
-            32.32876,
-            18.32372,
-            14.3273,
-            13.79514,
-            10.19106
+            0.06152351,
+            0.1106205,
+            0.08649405,
+            0.0592383221,
+            0.03232876,
+            0.0183237214,
+            0.0143273,
+            0.01379514,
+            0.0101910606
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -15728,22 +15724,22 @@
             "MolWeight": 408.87
           },
           "Values": [
-            279.6246,
-            607.5215,
-            466.1151,
-            290.4114,
-            144.1797,
-            78.68472,
-            54.91943,
-            43.76187,
-            32.32876,
-            23.43489,
-            17.31236,
-            14.87999,
-            11.85694
+            0.2796246,
+            0.6075215,
+            0.466115117,
+            0.2904114,
+            0.1441797,
+            0.07868472,
+            0.05491943,
+            0.04376187,
+            0.03232876,
+            0.02343489,
+            0.01731236,
+            0.0148799894,
+            0.0118569406
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -16303,10 +16299,9 @@
             "MolWeight": 408.87
           },
           "Values": [
-            1.54
+            0.0154
           ],
-          "Dimension": "Fraction",
-          "Unit": "%"
+          "Dimension": "Fraction"
         }
       ],
       "BaseGrid": {
@@ -16437,10 +16432,9 @@
             "MolWeight": 408.87
           },
           "Values": [
-            0.46
+            0.0046
           ],
-          "Dimension": "Fraction",
-          "Unit": "%"
+          "Dimension": "Fraction"
         }
       ],
       "BaseGrid": {
@@ -16571,10 +16565,9 @@
             "MolWeight": 408.87
           },
           "Values": [
-            3.2
+            0.032
           ],
-          "Dimension": "Fraction",
-          "Unit": "%"
+          "Dimension": "Fraction"
         }
       ],
       "BaseGrid": {
@@ -16705,10 +16698,9 @@
             "MolWeight": 408.87
           },
           "Values": [
-            0.61
+            0.00610000035
           ],
-          "Dimension": "Fraction",
-          "Unit": "%"
+          "Dimension": "Fraction"
         }
       ],
       "BaseGrid": {
@@ -16839,10 +16831,9 @@
             "MolWeight": 408.87
           },
           "Values": [
-            0.72
+            0.00720000034
           ],
-          "Dimension": "Fraction",
-          "Unit": "%"
+          "Dimension": "Fraction"
         }
       ],
       "BaseGrid": {
@@ -16973,10 +16964,9 @@
             "MolWeight": 408.87
           },
           "Values": [
-            1.04
+            0.0104
           ],
-          "Dimension": "Fraction",
-          "Unit": "%"
+          "Dimension": "Fraction"
         }
       ],
       "BaseGrid": {
@@ -17107,10 +17097,9 @@
             "MolWeight": 408.87
           },
           "Values": [
-            1.54
+            0.0154
           ],
-          "Dimension": "Fraction",
-          "Unit": "%"
+          "Dimension": "Fraction"
         }
       ],
       "BaseGrid": {
@@ -17241,10 +17230,9 @@
             "MolWeight": 408.87
           },
           "Values": [
-            1.17
+            0.0117
           ],
-          "Dimension": "Fraction",
-          "Unit": "%"
+          "Dimension": "Fraction"
         }
       ],
       "BaseGrid": {
@@ -17388,22 +17376,22 @@
             "MolWeight": 408.87
           },
           "Values": [
-            26.14091,
-            125.688995,
-            582.413,
-            977.2166,
-            1524.698,
-            716.1255,
-            533.7182,
-            369.4447,
-            296.4653,
-            225.0702,
-            153.1845,
-            116.4725,
-            116.6552
+            0.02614091,
+            0.125689,
+            0.582413,
+            0.9772166,
+            1.5246979,
+            0.7161255,
+            0.5337182,
+            0.3694447,
+            0.296465278,
+            0.225070208,
+            0.153184488,
+            0.116472505,
+            0.116655193
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -18222,37 +18210,37 @@
             "MolWeight": 408.87
           },
           "Values": [
-            2.625031,
-            14.36069,
-            27.51918,
-            22.78405,
-            16.63247,
-            9.439371,
-            6.747722,
-            5.13696,
-            3.672149,
-            3.376555,
-            2.795563,
-            1.654546,
-            1.620195,
-            1.586557,
-            1.702594,
-            10.525,
-            31.14106,
-            21.54435,
-            16.51117,
-            8.935341,
-            6.440045,
-            4.935525,
-            3.94053817,
-            3.705859,
-            2.782559,
-            1.96486807,
-            1.84785,
-            1.416156
+            0.00262503116,
+            0.0143606905,
+            0.02751918,
+            0.02278405,
+            0.01663247,
+            0.00943937153,
+            0.006747722,
+            0.00513696,
+            0.003672149,
+            0.003376555,
+            0.00279556285,
+            0.001654546,
+            0.001620195,
+            0.001586557,
+            0.00170259411,
+            0.0105249994,
+            0.03114106,
+            0.02154435,
+            0.01651117,
+            0.008935341,
+            0.006440045,
+            0.004935525,
+            0.003940538,
+            0.003705859,
+            0.00278255879,
+            0.001964868,
+            0.00184784993,
+            0.00141615607
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -18391,37 +18379,37 @@
             "MolWeight": 408.87
           },
           "Values": [
-            6.075739,
-            81.92937,
-            129.9856,
-            92.92003,
-            67.83207,
-            37.69726,
-            24.77864,
-            21.3942,
-            14.06254,
-            12.39921,
-            10.48338,
-            7.49402666,
-            7.036884,
-            6.075739,
-            6.573214,
-            54.11695,
-            106.3327,
-            86.65184,
-            72.07386,
-            35.21005,
-            26.43761,
-            21.10787,
-            16.85259,
-            13.73339,
-            10.96478,
-            8.232951,
-            6.573214,
-            6.056507
+            0.006075739,
+            0.08192936,
+            0.1299856,
+            0.09292003,
+            0.06783207,
+            0.0376972631,
+            0.0247786418,
+            0.0213942,
+            0.0140625406,
+            0.01239921,
+            0.01048338,
+            0.007494027,
+            0.007036884,
+            0.006075739,
+            0.006573214,
+            0.0541169532,
+            0.1063327,
+            0.08665184,
+            0.07207386,
+            0.03521005,
+            0.02643761,
+            0.02110787,
+            0.0168525912,
+            0.01373339,
+            0.01096478,
+            0.008232951,
+            0.006573214,
+            0.006056507
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -18560,36 +18548,36 @@
             "MolWeight": 408.87
           },
           "Values": [
-            92.92003,
-            249.089478,
-            163.728,
-            112.2313,
-            57.35115,
-            50.56761,
-            26.38835,
-            25.30399,
-            19.26363,
-            19.67205,
-            12.14178,
-            9.051485,
-            8.679538,
-            10.74264,
-            97.97406,
-            208.9296,
-            160.1196,
-            138.7466,
-            67.78149,
-            46.89333,
-            35.93814,
-            27.54229,
-            22.90868,
-            17.91981,
-            11.65914,
-            11.19151,
-            8.754316
+            0.09292003,
+            0.249089479,
+            0.163728,
+            0.1122313,
+            0.05735115,
+            0.0505676121,
+            0.026388349,
+            0.02530399,
+            0.01926363,
+            0.0196720511,
+            0.01214178,
+            0.009051485,
+            0.008679538,
+            0.01074264,
+            0.09797406,
+            0.2089296,
+            0.1601196,
+            0.1387466,
+            0.0677814856,
+            0.04689333,
+            0.03593814,
+            0.02754229,
+            0.02290868,
+            0.01791981,
+            0.01165914,
+            0.01119151,
+            0.008754317
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -18727,36 +18715,36 @@
             "MolWeight": 408.87
           },
           "Values": [
-            355.8384,
-            711.1091,
-            420.8679,
-            348.4506,
-            185.6918,
-            112.2313,
-            101.0545,
-            62.3718452,
-            51.63974,
-            40.14622,
-            30.56283,
-            22.78405,
-            22.78405,
-            29.8920383,
-            370.5859,
-            630.9573,
-            546.7361,
-            370.5859,
-            192.5061,
-            122.712509,
-            102.0678,
-            69.1831,
-            58.73391,
-            43.20714,
-            33.11311,
-            21.54435,
-            21.54435
+            0.355838418,
+            0.711109042,
+            0.4208679,
+            0.348450571,
+            0.1856918,
+            0.1122313,
+            0.1010545,
+            0.0623718463,
+            0.0516397431,
+            0.0401462242,
+            0.0305628311,
+            0.02278405,
+            0.02278405,
+            0.0298920386,
+            0.3705859,
+            0.6309573,
+            0.546736062,
+            0.3705859,
+            0.1925061,
+            0.122712508,
+            0.1020678,
+            0.0691831,
+            0.05873391,
+            0.0432071425,
+            0.03311311,
+            0.02154435,
+            0.02154435
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -18894,37 +18882,37 @@
             "MolWeight": 408.87
           },
           "Values": [
-            61.0769043,
-            552.8366,
-            1037.398,
-            895.7029,
-            806.5029,
-            386.9896,
-            243.9179,
-            201.9478,
-            138.4299,
-            122.05629,
-            109.9012,
-            67.83207,
-            56.16044,
-            54.99446,
-            62.4533157,
-            605.6507,
-            1265.384,
-            1031.177,
-            743.2092,
-            427.6723,
-            284.0098,
-            226.7543,
-            163.4306,
-            144.544,
-            117.7907,
-            72.07386,
-            63.74475,
-            62.4533157
+            0.0610769,
+            0.5528366,
+            1.037398,
+            0.8957029,
+            0.806502938,
+            0.3869896,
+            0.2439179,
+            0.2019478,
+            0.1384299,
+            0.122056291,
+            0.109901205,
+            0.06783207,
+            0.05616044,
+            0.0549944639,
+            0.06245332,
+            0.6056507,
+            1.26538408,
+            1.031177,
+            0.743209243,
+            0.4276723,
+            0.284009784,
+            0.226754308,
+            0.1634306,
+            0.144544,
+            0.117790706,
+            0.07207386,
+            0.06374475,
+            0.06245332
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -19063,18 +19051,18 @@
             "MolWeight": 408.87
           },
           "Values": [
-            68.98955,
-            80.27875,
-            61.46341,
-            45.1568,
-            29.47735,
-            20.69686,
-            13.17073,
-            8.780488,
-            6.898955
+            0.06898955,
+            0.08027875,
+            0.0614634119,
+            0.0451568,
+            0.02947735,
+            0.02069686,
+            0.0131707294,
+            0.008780489,
+            0.00689895451
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -19109,8 +19097,8 @@
     {
       "Name": "Boulton 2013",
       "Classifiables": [
-        "Boulton 2013 - [14C]-dapagliflozin iv - Dapagliflozin - IV - 0.08 mg - Plasma - agg. (n=7)",
-        "Boulton 2013 - Dapagliflozin po - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=7)"
+        "Boulton 2013 - Dapagliflozin po - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=7)",
+        "Boulton 2013 - [14C]-dapagliflozin iv - Dapagliflozin - IV - 0.08 mg - Plasma - agg. (n=7)"
       ]
     },
     {
@@ -19129,16 +19117,16 @@
     {
       "Name": "Kasichayanula 2011a",
       "Classifiables": [
-        "Kasichayanula 2011a - fasted - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=14)",
-        "Kasichayanula 2011a - fed - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=14)"
+        "Kasichayanula 2011a - fed - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=14)",
+        "Kasichayanula 2011a - fasted - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=14)"
       ]
     },
     {
       "Name": "Kasichayanula 2011b",
       "Classifiables": [
-        "Kasichayanula 2011b - Study 1: 50 mg Control (Perpetrator Placebo) - Dapagliflozin - PO - 50 mg - Plasma - agg. (n=24)",
+        "Kasichayanula 2011b - Study 3: 20 mg Control (Perpetrator Placebo) - Dapagliflozin - PO - 20 mg - Plasma - agg. (n=18)",
         "Kasichayanula 2011b - Study 2: 20 mg Control (Perpetrator Placebo) - Dapagliflozin - PO - 20 mg - Plasma - agg. (n=18)",
-        "Kasichayanula 2011b - Study 3: 20 mg Control (Perpetrator Placebo) - Dapagliflozin - PO - 20 mg - Plasma - agg. (n=18)"
+        "Kasichayanula 2011b - Study 1: 50 mg Control (Perpetrator Placebo) - Dapagliflozin - PO - 50 mg - Plasma - agg. (n=24)"
       ]
     },
     {
@@ -19150,18 +19138,18 @@
     {
       "Name": "Kasichayanula 2013a",
       "Classifiables": [
-        "Kasichayanula 2013a - Study 1: Control (Perpetrator Placebo) - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=14)",
-        "Kasichayanula 2013a - Study 2: Control (Perpetrator Placebo) - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=16)"
+        "Kasichayanula 2013a - Study 2: Control (Perpetrator Placebo) - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=16)",
+        "Kasichayanula 2013a - Study 1: Control (Perpetrator Placebo) - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=14)"
       ]
     },
     {
       "Name": "Kasichayanula 2013b",
       "Classifiables": [
-        "Kasichayanula 2013b - Healthy subjects with normal kidney function - Dapagliflozin - PO - 50 mg - Plasma - agg. (n=8)",
-        "Kasichayanula 2013b - T2DM with normal kidney function - Dapagliflozin - PO - 50 mg - Plasma - agg. (n=12)",
-        "Kasichayanula 2013b - T2DM with mild renal impairment - Dapagliflozin - PO - 50 mg - Plasma - agg. (n=8)",
+        "Kasichayanula 2013b - T2DM with severe renal impairment - Dapagliflozin - PO - 50 mg - Plasma - agg. (n=4)",
         "Kasichayanula 2013b - T2DM with moderate renal impairment - Dapagliflozin - PO - 50 mg - Plasma - agg. (n=8)",
-        "Kasichayanula 2013b - T2DM with severe renal impairment - Dapagliflozin - PO - 50 mg - Plasma - agg. (n=4)"
+        "Kasichayanula 2013b - T2DM with mild renal impairment - Dapagliflozin - PO - 50 mg - Plasma - agg. (n=8)",
+        "Kasichayanula 2013b - T2DM with normal kidney function - Dapagliflozin - PO - 50 mg - Plasma - agg. (n=12)",
+        "Kasichayanula 2013b - Healthy subjects with normal kidney function - Dapagliflozin - PO - 50 mg - Plasma - agg. (n=8)"
       ]
     },
     {
@@ -19194,8 +19182,8 @@
             "Komoroski 2009 - SAD 20 mg (Urine) - Dapagliflozin - PO - 20 mg - Urine - agg. (n=6)",
             "Komoroski 2009 - SAD 50 mg (Urine) - Dapagliflozin - PO - 50 mg - Urine - agg. (n=6)",
             "Komoroski 2009 - SAD 100 mg (Urine) - Dapagliflozin - PO - 100 mg - Urine - agg. (n=6)",
-            "Komoroski 2009 - SAD 500 mg (Urine) - Dapagliflozin - PO - 500 mg - Urine - agg. (n=6)",
-            "Komoroski 2009 - SAD 250 mg fasted (Urine) - Dapagliflozin - PO - 250 mg - Urine - agg. (n=6)"
+            "Komoroski 2009 - SAD 250 mg fasted (Urine) - Dapagliflozin - PO - 250 mg - Urine - agg. (n=6)",
+            "Komoroski 2009 - SAD 500 mg (Urine) - Dapagliflozin - PO - 500 mg - Urine - agg. (n=6)"
           ]
         },
         {
@@ -19282,11 +19270,11 @@
     {
       "Name": "Kasichayanula 2008",
       "Classifiables": [
-        "Kasichayanula 2008 - Mass Balance of [14C]-dapagliflozin 3OG Gluc - Dapagliflozin-3-O-glucuronide - PO - 50 mg - Fraction - agg. (n=6)",
-        "Kasichayanula 2008 - Mass Balance of [14C]-dapagliflozin 2OG Gluc - Dapagliflozin-2-O-glucuronide - PO - 50 mg - Fraction - agg. (n=6)",
-        "Kasichayanula 2008 - Mass Balance of [14C]-dapagliflozin oxid Metab - Dapagliflozin oxidative metabolites - PO - 50 mg - Fraction - agg. (n=6)",
-        "Kasichayanula 2008 - Mass Balance of [14C]-dapagliflozin Urine - Dapagliflozin - PO - 50 mg - Urine - agg. (n=6)",
         "Kasichayanula 2008 - Mass Balance of [14C]-dapagliflozin Feces - Dapagliflozin - PO - 50 mg - Feces - agg. (n=6)",
+        "Kasichayanula 2008 - Mass Balance of [14C]-dapagliflozin Urine - Dapagliflozin - PO - 50 mg - Urine - agg. (n=6)",
+        "Kasichayanula 2008 - Mass Balance of [14C]-dapagliflozin oxid Metab - Dapagliflozin oxidative metabolites - PO - 50 mg - Fraction - agg. (n=6)",
+        "Kasichayanula 2008 - Mass Balance of [14C]-dapagliflozin 2OG Gluc - Dapagliflozin-2-O-glucuronide - PO - 50 mg - Fraction - agg. (n=6)",
+        "Kasichayanula 2008 - Mass Balance of [14C]-dapagliflozin 3OG Gluc - Dapagliflozin-3-O-glucuronide - PO - 50 mg - Fraction - agg. (n=6)",
         "Kasichayanula 2008 - Mass Balance of [14C]-dapagliflozin 3OG Gluc (incl. unchanged feces exret.) - Dapagliflozin-3-O-glucuronide - PO - 50 mg - Fraction - agg. (n=6)",
         "Kasichayanula 2008 - Mass Balance of [14C]-dapagliflozin 2OG Gluc (incl. unchanged feces exret.) - Dapagliflozin-2-O-glucuronide - PO - 50 mg - Fraction - agg. (n=6)"
       ]
