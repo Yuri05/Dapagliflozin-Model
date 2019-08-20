@@ -1,9 +1,9 @@
-{
+﻿{
     "$schema": "https://github.com/Open-Systems-Pharmacology/QualificationPlan/releases/download/v1.0/OSP_Qualification_Plan_Schema.json",
     "Projects": [
         {
             "Id": "Dapagliflozin",
-            "Path": "https://raw.githubusercontent.com/sfrechen/Dapagliflozin/master/Dapagliflozin.json",
+            "Path": "C:/Users/gemuh.AD-BAYER-CNB/Desktop/Markdown/Dapagliflozin/Input/Dapagliflozin.json",
             "BuildingBlocks": []
         }
     ],
@@ -136,7 +136,7 @@
                                 "Project": "Dapagliflozin",
                                 "Simulation": "IV 0.08 mg (perm)",
                                 "Output": "Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Boulton 2013 - [14C]-dapagliflozin iv - Dapagliflozin - IV - 0.08 mg - Plasma - agg. (n=7)",
+                                "ObservedData": "Boulton 2013 - 14C-dapagliflozin iv - Dapagliflozin - IV - 0.08 mg - Plasma - agg. (n=7)",
                                 "Color": "#000000"
                             }
                         ]
@@ -275,35 +275,35 @@
                                 "Project": "Dapagliflozin",
                                 "Simulation": "PO SD 50 mg (perm)",
                                 "Output": "Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Kasichayanula 2008 - Mass Balance of [14C]-dapagliflozin 2OG Gluc - Dapagliflozin-2-O-glucuronide - PO - 50 mg - Fraction - agg. (n=6)",
+                                "ObservedData": "Kasichayanula 2008 - Mass Balance of 14C-dapagliflozin 2OG Gluc - Dapagliflozin-2-O-glucuronide - PO - 50 mg - Fraction - agg. (n=6)",
                                 "Color": "#000000"
                             },
                             {
                                 "Project": "Dapagliflozin",
                                 "Simulation": "PO SD 50 mg (perm)",
                                 "Output": "Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Kasichayanula 2008 - Mass Balance of [14C]-dapagliflozin 2OG Gluc (incl. unchanged feces exret.) - Dapagliflozin-2-O-glucuronide - PO - 50 mg - Fraction - agg. (n=6)",
+                                "ObservedData": "Kasichayanula 2008 - Mass Balance of 14C-dapagliflozin 2OG Gluc (incl. unchanged feces exret.) - Dapagliflozin-2-O-glucuronide - PO - 50 mg - Fraction - agg. (n=6)",
                                 "Color": "#000000"
                             },
                             {
                                 "Project": "Dapagliflozin",
                                 "Simulation": "PO SD 50 mg (perm)",
                                 "Output": "Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Kasichayanula 2008 - Mass Balance of [14C]-dapagliflozin 3OG Gluc - Dapagliflozin-3-O-glucuronide - PO - 50 mg - Fraction - agg. (n=6)",
+                                "ObservedData": "Kasichayanula 2008 - Mass Balance of 14C-dapagliflozin 3OG Gluc - Dapagliflozin-3-O-glucuronide - PO - 50 mg - Fraction - agg. (n=6)",
                                 "Color": "#000000"
                             },
                             {
                                 "Project": "Dapagliflozin",
                                 "Simulation": "PO SD 50 mg (perm)",
                                 "Output": "Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Kasichayanula 2008 - Mass Balance of [14C]-dapagliflozin 3OG Gluc (incl. unchanged feces exret.) - Dapagliflozin-3-O-glucuronide - PO - 50 mg - Fraction - agg. (n=6)",
+                                "ObservedData": "Kasichayanula 2008 - Mass Balance of 14C-dapagliflozin 3OG Gluc (incl. unchanged feces exret.) - Dapagliflozin-3-O-glucuronide - PO - 50 mg - Fraction - agg. (n=6)",
                                 "Color": "#000000"
                             },
                             {
                                 "Project": "Dapagliflozin",
                                 "Simulation": "PO SD 50 mg (perm)",
                                 "Output": "Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Kasichayanula 2008 - Mass Balance of [14C]-dapagliflozin oxid Metab - Dapagliflozin oxidative metabolites - PO - 50 mg - Fraction - agg. (n=6)",
+                                "ObservedData": "Kasichayanula 2008 - Mass Balance of 14C-dapagliflozin oxid Metab - Dapagliflozin oxidative metabolites - PO - 50 mg - Fraction - agg. (n=6)",
                                 "Color": "#000000"
                             },
                             {
@@ -453,7 +453,7 @@
                                 "Project": "Dapagliflozin",
                                 "Simulation": "IV 0.08 mg (perm)",
                                 "Output": "Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Boulton 2013 - [14C]-dapagliflozin iv - Dapagliflozin - IV - 0.08 mg - Plasma - agg. (n=7)",
+                                "ObservedData": "Boulton 2013 - 14C-dapagliflozin iv - Dapagliflozin - IV - 0.08 mg - Plasma - agg. (n=7)",
                                 "Color": "#000000"
                             }
                         ]
@@ -592,35 +592,35 @@
                                 "Project": "Dapagliflozin",
                                 "Simulation": "PO SD 50 mg (perm)",
                                 "Output": "Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Kasichayanula 2008 - Mass Balance of [14C]-dapagliflozin 2OG Gluc - Dapagliflozin-2-O-glucuronide - PO - 50 mg - Fraction - agg. (n=6)",
+                                "ObservedData": "Kasichayanula 2008 - Mass Balance of 14C-dapagliflozin 2OG Gluc - Dapagliflozin-2-O-glucuronide - PO - 50 mg - Fraction - agg. (n=6)",
                                 "Color": "#000000"
                             },
                             {
                                 "Project": "Dapagliflozin",
                                 "Simulation": "PO SD 50 mg (perm)",
                                 "Output": "Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Kasichayanula 2008 - Mass Balance of [14C]-dapagliflozin 2OG Gluc (incl. unchanged feces exret.) - Dapagliflozin-2-O-glucuronide - PO - 50 mg - Fraction - agg. (n=6)",
+                                "ObservedData": "Kasichayanula 2008 - Mass Balance of 14C-dapagliflozin 2OG Gluc (incl. unchanged feces exret.) - Dapagliflozin-2-O-glucuronide - PO - 50 mg - Fraction - agg. (n=6)",
                                 "Color": "#000000"
                             },
                             {
                                 "Project": "Dapagliflozin",
                                 "Simulation": "PO SD 50 mg (perm)",
                                 "Output": "Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Kasichayanula 2008 - Mass Balance of [14C]-dapagliflozin 3OG Gluc - Dapagliflozin-3-O-glucuronide - PO - 50 mg - Fraction - agg. (n=6)",
+                                "ObservedData": "Kasichayanula 2008 - Mass Balance of 14C-dapagliflozin 3OG Gluc - Dapagliflozin-3-O-glucuronide - PO - 50 mg - Fraction - agg. (n=6)",
                                 "Color": "#000000"
                             },
                             {
                                 "Project": "Dapagliflozin",
                                 "Simulation": "PO SD 50 mg (perm)",
                                 "Output": "Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Kasichayanula 2008 - Mass Balance of [14C]-dapagliflozin 3OG Gluc (incl. unchanged feces exret.) - Dapagliflozin-3-O-glucuronide - PO - 50 mg - Fraction - agg. (n=6)",
+                                "ObservedData": "Kasichayanula 2008 - Mass Balance of 14C-dapagliflozin 3OG Gluc (incl. unchanged feces exret.) - Dapagliflozin-3-O-glucuronide - PO - 50 mg - Fraction - agg. (n=6)",
                                 "Color": "#000000"
                             },
                             {
                                 "Project": "Dapagliflozin",
                                 "Simulation": "PO SD 50 mg (perm)",
                                 "Output": "Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Kasichayanula 2008 - Mass Balance of [14C]-dapagliflozin oxid Metab - Dapagliflozin oxidative metabolites - PO - 50 mg - Fraction - agg. (n=6)",
+                                "ObservedData": "Kasichayanula 2008 - Mass Balance of 14C-dapagliflozin oxid Metab - Dapagliflozin oxidative metabolites - PO - 50 mg - Fraction - agg. (n=6)",
                                 "Color": "#000000"
                             },
                             {
