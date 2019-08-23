@@ -2363,7 +2363,7 @@
             "DiagramBackColor": "#FFFFFF"
           },
           "Title": "PO SD 10 mg (perm)",
-          "OriginText": "Dapagliflozin\nPO SD 10 mg (perm)\n2019-08-23 15:41"
+          "OriginText": "Dapagliflozin\nPO SD 10 mg (perm)\n2019-08-06 11:22"
         },
         {
           "Axes": [
@@ -2542,7 +2542,7 @@
             "DiagramBackColor": "#FFFFFF"
           },
           "Title": "PO SD 10 mg (perm)",
-          "OriginText": "Dapagliflozin\nPO SD 10 mg (perm)\n2019-08-23 15:41"
+          "OriginText": "Dapagliflozin\nPO SD 10 mg (perm)\n2019-08-06 11:22"
         }
       ]
     },
@@ -5080,6 +5080,233 @@
       ]
     },
     {
+      "Name": "PO SD 5 mg IC tablet (Chang 2015) (perm)",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Chang 2015 - Study 1 Treatment A (single oral doses) - Dapagliflozin - PO - 5 mg - Plasma - agg. (n=36)"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 24.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|PO SD 5 mg|IC tablet (Chang 2015)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Dapagliflozin|Blood/Plasma concentration ratio",
+          "Value": 0.88,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Dapagliflozin|logP (veg.oil/water)",
+          "Value": 2.0831076805,
+          "Unit": "Log Units",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "Standard_Adult_UGT",
+      "Compounds": [
+        {
+          "Name": "Dapagliflozin",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_PERMEABILITY"
+            },
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "UGT1A9-Optimized",
+              "MoleculeName": "UGT1A9"
+            },
+            {
+              "Name": "UGT2B7-Optimized",
+              "MoleculeName": "UGT2B7"
+            },
+            {
+              "Name": "Hepatic-CYP-Optimized",
+              "MoleculeName": "Hepatic-CYP"
+            },
+            {
+              "Name": "Glomerular Filtration-assumed"
+            }
+          ],
+          "Protocol": {
+            "Name": "PO SD 5 mg",
+            "Formulations": [
+              {
+                "Name": "IC tablet (Chang 2015)",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "PO SD 5 mg IC tablet (Chang 2015) (perm)-Dapagliflozin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "PO SD 5 mg IC tablet (Chang 2015) (perm)|Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Chang 2015 - Study 1 Treatment A (single oral doses) - Dapagliflozin - PO - 5 mg - Plasma - agg. (n=36)-Dapagliflozin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Chang 2015 - Study 1 Treatment A (single oral doses) - Dapagliflozin - PO - 5 mg - Plasma - agg. (n=36)|Time",
+              "Y": "Chang 2015 - Study 1 Treatment A (single oral doses) - Dapagliflozin - PO - 5 mg - Plasma - agg. (n=36)|ObservedData|Peripheral Venous Blood|Plasma|Dapagliflozin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "PO SD 5 mg IR tablet (perm)",
+          "Title": "PO SD 5 mg IR tablet (perm)",
+          "OriginText": "Dapagliflozin\nPO SD 5 mg IR tablet (perm)\n2019-08-06 14:59"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "PO SD 5 mg IC tablet (Chang 2015) (perm)-Dapagliflozin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "PO SD 5 mg IC tablet (Chang 2015) (perm)|Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Chang 2015 - Study 1 Treatment A (single oral doses) - Dapagliflozin - PO - 5 mg - Plasma - agg. (n=36)-Dapagliflozin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Chang 2015 - Study 1 Treatment A (single oral doses) - Dapagliflozin - PO - 5 mg - Plasma - agg. (n=36)|Time",
+              "Y": "Chang 2015 - Study 1 Treatment A (single oral doses) - Dapagliflozin - PO - 5 mg - Plasma - agg. (n=36)|ObservedData|Peripheral Venous Blood|Plasma|Dapagliflozin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "PO SD 5 mg IR tablet (perm) 1",
+          "Title": "PO SD 5 mg IR tablet (perm)",
+          "OriginText": "Dapagliflozin\nPO SD 5 mg IR tablet (perm)\n2019-08-06 14:59"
+        }
+      ]
+    },
+    {
       "Name": "PO SD 250 mg fed (perm)",
       "Model": "4Comp",
       "ObservedData": [
@@ -5332,6 +5559,233 @@
           "Name": "PO SD 250 mg fed (perm) 1",
           "Title": "PO SD 250 mg fed (perm)",
           "OriginText": "Dapagliflozin\nPO SD 250 mg fed (perm)\n2019-08-06 14:47"
+        }
+      ]
+    },
+    {
+      "Name": "PO SD 10 mg IC tablet (Chang 2015) (perm)",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Chang 2015 - Study 2 Treatment A (single oral doses) - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=36)"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 24.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|PO SD 10 mg|IC tablet (Chang 2015)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Dapagliflozin|Blood/Plasma concentration ratio",
+          "Value": 0.88,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Dapagliflozin|logP (veg.oil/water)",
+          "Value": 2.0831076805,
+          "Unit": "Log Units",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "Standard_Adult_UGT",
+      "Compounds": [
+        {
+          "Name": "Dapagliflozin",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_PERMEABILITY"
+            },
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "UGT1A9-Optimized",
+              "MoleculeName": "UGT1A9"
+            },
+            {
+              "Name": "UGT2B7-Optimized",
+              "MoleculeName": "UGT2B7"
+            },
+            {
+              "Name": "Hepatic-CYP-Optimized",
+              "MoleculeName": "Hepatic-CYP"
+            },
+            {
+              "Name": "Glomerular Filtration-assumed"
+            }
+          ],
+          "Protocol": {
+            "Name": "PO SD 10 mg",
+            "Formulations": [
+              {
+                "Name": "IC tablet (Chang 2015)",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "PO SD 10 mg IC tablet (Chang 2015) (perm)-Dapagliflozin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "PO SD 10 mg IC tablet (Chang 2015) (perm)|Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Chang 2015 - Study 2 Treatment A (single oral doses) - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=36)-Dapagliflozin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Chang 2015 - Study 2 Treatment A (single oral doses) - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=36)|Time",
+              "Y": "Chang 2015 - Study 2 Treatment A (single oral doses) - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=36)|ObservedData|Peripheral Venous Blood|Plasma|Dapagliflozin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "PO SD 10 mg IR tablet (perm)",
+          "Title": "PO SD 10 mg IR tablet (perm)",
+          "OriginText": "Dapagliflozin\nPO SD 10 mg IR tablet (perm)\n2019-08-07 13:04"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "PO SD 10 mg IC tablet (Chang 2015) (perm)-Dapagliflozin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "PO SD 10 mg IC tablet (Chang 2015) (perm)|Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Chang 2015 - Study 2 Treatment A (single oral doses) - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=36)-Dapagliflozin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Chang 2015 - Study 2 Treatment A (single oral doses) - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=36)|Time",
+              "Y": "Chang 2015 - Study 2 Treatment A (single oral doses) - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=36)|ObservedData|Peripheral Venous Blood|Plasma|Dapagliflozin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "PO SD 10 mg IR tablet (perm) 1",
+          "Title": "PO SD 10 mg IR tablet (perm)",
+          "OriginText": "Dapagliflozin\nPO SD 10 mg IR tablet (perm)\n2019-08-07 13:04"
         }
       ]
     },
@@ -7012,460 +7466,6 @@
           "Name": "PO MD 50 mg (perm) 1",
           "Title": "PO MD 50 mg (perm)",
           "OriginText": "Dapagliflozin\nPO MD 50 mg (perm)\n2019-08-19 17:46"
-        }
-      ]
-    },
-    {
-      "Name": "PO SD 10 mg IR tablet (perm)",
-      "Model": "4Comp",
-      "ObservedData": [
-        "Chang 2015 - Study 2 Treatment A (single oral doses) - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=36)"
-      ],
-      "Solver": {},
-      "OutputSchema": [
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 0.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "Resolution",
-              "Value": 20.0,
-              "Unit": "pts/h"
-            }
-          ]
-        },
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
-              "Value": 24.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Resolution",
-              "Value": 4.0,
-              "Unit": "pts/h"
-            }
-          ]
-        }
-      ],
-      "Parameters": [
-        {
-          "Path": "Applications|PO SD 10 mg|IC tablet (Chang 2015)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Dapagliflozin|Blood/Plasma concentration ratio",
-          "Value": 0.88,
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Dapagliflozin|logP (veg.oil/water)",
-          "Value": 2.0831076805,
-          "Unit": "Log Units",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        }
-      ],
-      "OutputSelections": [
-        "Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)"
-      ],
-      "Individual": "Standard_Adult_UGT",
-      "Compounds": [
-        {
-          "Name": "Dapagliflozin",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - Rodgers and Rowland",
-            "Cellular permeability - PK-Sim Standard"
-          ],
-          "Alternatives": [
-            {
-              "AlternativeName": "Optimized",
-              "GroupName": "COMPOUND_PERMEABILITY"
-            },
-            {
-              "AlternativeName": "Optimized",
-              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
-            }
-          ],
-          "Processes": [
-            {
-              "Name": "UGT1A9-Optimized",
-              "MoleculeName": "UGT1A9"
-            },
-            {
-              "Name": "UGT2B7-Optimized",
-              "MoleculeName": "UGT2B7"
-            },
-            {
-              "Name": "Hepatic-CYP-Optimized",
-              "MoleculeName": "Hepatic-CYP"
-            },
-            {
-              "Name": "Glomerular Filtration-assumed"
-            }
-          ],
-          "Protocol": {
-            "Name": "PO SD 10 mg",
-            "Formulations": [
-              {
-                "Name": "IC tablet (Chang 2015)",
-                "Key": "Formulation"
-              }
-            ]
-          }
-        }
-      ],
-      "HasResults": true,
-      "IndividualAnalyses": [
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "µg/l",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "PO SD 10 mg IR tablet (perm)-Dapagliflozin-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "PO SD 10 mg IR tablet (perm)|Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 1
-              }
-            },
-            {
-              "Name": "Chang 2015 - Study 2 Treatment A (single oral doses) - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=36)-Dapagliflozin-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Chang 2015 - Study 2 Treatment A (single oral doses) - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=36)|Time",
-              "Y": "Chang 2015 - Study 2 Treatment A (single oral doses) - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=36)|ObservedData|Peripheral Venous Blood|Plasma|Dapagliflozin|ArithmeticMean",
-              "CurveOptions": {
-                "Color": "#0000FF",
-                "LegendIndex": 2,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "PO SD 10 mg IR tablet (perm)",
-          "Title": "PO SD 10 mg IR tablet (perm)",
-          "OriginText": "Dapagliflozin\nPO SD 10 mg IR tablet (perm)\n2019-08-07 13:04"
-        },
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "µg/l",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "PO SD 10 mg IR tablet (perm)-Dapagliflozin-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "PO SD 10 mg IR tablet (perm)|Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 1
-              }
-            },
-            {
-              "Name": "Chang 2015 - Study 2 Treatment A (single oral doses) - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=36)-Dapagliflozin-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Chang 2015 - Study 2 Treatment A (single oral doses) - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=36)|Time",
-              "Y": "Chang 2015 - Study 2 Treatment A (single oral doses) - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=36)|ObservedData|Peripheral Venous Blood|Plasma|Dapagliflozin|ArithmeticMean",
-              "CurveOptions": {
-                "Color": "#0000FF",
-                "LegendIndex": 2,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "PO SD 10 mg IR tablet (perm) 1",
-          "Title": "PO SD 10 mg IR tablet (perm)",
-          "OriginText": "Dapagliflozin\nPO SD 10 mg IR tablet (perm)\n2019-08-07 13:04"
-        }
-      ]
-    },
-    {
-      "Name": "PO SD 5 mg IR tablet (perm)",
-      "Model": "4Comp",
-      "ObservedData": [
-        "Chang 2015 - Study 1 Treatment A (single oral doses) - Dapagliflozin - PO - 5 mg - Plasma - agg. (n=36)"
-      ],
-      "Solver": {},
-      "OutputSchema": [
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 0.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "Resolution",
-              "Value": 20.0,
-              "Unit": "pts/h"
-            }
-          ]
-        },
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
-              "Value": 24.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Resolution",
-              "Value": 4.0,
-              "Unit": "pts/h"
-            }
-          ]
-        }
-      ],
-      "Parameters": [
-        {
-          "Path": "Applications|PO SD 5 mg|IC tablet (Chang 2015)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Dapagliflozin|Blood/Plasma concentration ratio",
-          "Value": 0.88,
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Dapagliflozin|logP (veg.oil/water)",
-          "Value": 2.0831076805,
-          "Unit": "Log Units",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        }
-      ],
-      "OutputSelections": [
-        "Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)"
-      ],
-      "Individual": "Standard_Adult_UGT",
-      "Compounds": [
-        {
-          "Name": "Dapagliflozin",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - Rodgers and Rowland",
-            "Cellular permeability - PK-Sim Standard"
-          ],
-          "Alternatives": [
-            {
-              "AlternativeName": "Optimized",
-              "GroupName": "COMPOUND_PERMEABILITY"
-            },
-            {
-              "AlternativeName": "Optimized",
-              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
-            }
-          ],
-          "Processes": [
-            {
-              "Name": "UGT1A9-Optimized",
-              "MoleculeName": "UGT1A9"
-            },
-            {
-              "Name": "UGT2B7-Optimized",
-              "MoleculeName": "UGT2B7"
-            },
-            {
-              "Name": "Hepatic-CYP-Optimized",
-              "MoleculeName": "Hepatic-CYP"
-            },
-            {
-              "Name": "Glomerular Filtration-assumed"
-            }
-          ],
-          "Protocol": {
-            "Name": "PO SD 5 mg",
-            "Formulations": [
-              {
-                "Name": "IC tablet (Chang 2015)",
-                "Key": "Formulation"
-              }
-            ]
-          }
-        }
-      ],
-      "HasResults": true,
-      "IndividualAnalyses": [
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "µg/l",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "PO SD 5 mg IR tablet (perm)-Dapagliflozin-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "PO SD 5 mg IR tablet (perm)|Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 1
-              }
-            },
-            {
-              "Name": "Chang 2015 - Study 1 Treatment A (single oral doses) - Dapagliflozin - PO - 5 mg - Plasma - agg. (n=36)-Dapagliflozin-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Chang 2015 - Study 1 Treatment A (single oral doses) - Dapagliflozin - PO - 5 mg - Plasma - agg. (n=36)|Time",
-              "Y": "Chang 2015 - Study 1 Treatment A (single oral doses) - Dapagliflozin - PO - 5 mg - Plasma - agg. (n=36)|ObservedData|Peripheral Venous Blood|Plasma|Dapagliflozin|ArithmeticMean",
-              "CurveOptions": {
-                "Color": "#0000FF",
-                "LegendIndex": 2,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "PO SD 5 mg IR tablet (perm)",
-          "Title": "PO SD 5 mg IR tablet (perm)",
-          "OriginText": "Dapagliflozin\nPO SD 5 mg IR tablet (perm)\n2019-08-06 14:59"
-        },
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "µg/l",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "PO SD 5 mg IR tablet (perm)-Dapagliflozin-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "PO SD 5 mg IR tablet (perm)|Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 1
-              }
-            },
-            {
-              "Name": "Chang 2015 - Study 1 Treatment A (single oral doses) - Dapagliflozin - PO - 5 mg - Plasma - agg. (n=36)-Dapagliflozin-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Chang 2015 - Study 1 Treatment A (single oral doses) - Dapagliflozin - PO - 5 mg - Plasma - agg. (n=36)|Time",
-              "Y": "Chang 2015 - Study 1 Treatment A (single oral doses) - Dapagliflozin - PO - 5 mg - Plasma - agg. (n=36)|ObservedData|Peripheral Venous Blood|Plasma|Dapagliflozin|ArithmeticMean",
-              "CurveOptions": {
-                "Color": "#0000FF",
-                "LegendIndex": 2,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "PO SD 5 mg IR tablet (perm) 1",
-          "Title": "PO SD 5 mg IR tablet (perm)",
-          "OriginText": "Dapagliflozin\nPO SD 5 mg IR tablet (perm)\n2019-08-06 14:59"
         }
       ]
     }
@@ -13391,22 +13391,22 @@
             "MolWeight": 408.87
           },
           "Values": [
-            92.77457,
-            118.786125,
-            84.10405,
-            69.36416,
-            46.82081,
-            32.9479752,
-            19.0751438,
-            12.51875,
-            7.673923,
-            4.34140873,
-            2.792499,
-            1.96192729,
-            1.38949549
+            0.09277456,
+            0.118786126,
+            0.08410405,
+            0.06936415,
+            0.04682081,
+            0.0329479761,
+            0.0190751441,
+            0.0125187505,
+            0.007673923,
+            0.00434140861,
+            0.002792499,
+            0.0019619274,
+            0.00138949556
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/l"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -13698,21 +13698,21 @@
             "MolWeight": 408.87
           },
           "Values": [
-            103.5613,
-            115.8323,
-            85.13168,
-            66.17115,
-            44.71528,
-            24.15343,
-            13.79805,
-            9.066649,
-            3.701596,
-            1.554137,
-            1.11069,
-            0.6900901
+            0.103561305,
+            0.1158323,
+            0.08513168,
+            0.06617115,
+            0.0447152779,
+            0.0241534319,
+            0.01379805,
+            0.00906665,
+            0.00370159582,
+            0.0015541371,
+            0.00111069,
+            0.0006900901
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/l"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -14563,17 +14563,17 @@
             "MolWeight": 408.87
           },
           "Values": [
-            107.4542,
-            137.6423,
-            120.751808,
-            90.21964,
-            69.75128,
-            32.03501,
-            12.76998,
-            7.467561
+            0.107454196,
+            0.137642309,
+            0.120751806,
+            0.09021965,
+            0.06975128,
+            0.03203501,
+            0.01276998,
+            0.007467561
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/l"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -14719,17 +14719,17 @@
             "MolWeight": 408.87
           },
           "Values": [
-            90.77876,
-            126.4459,
-            123.685295,
-            89.93079,
-            71.91326,
-            36.41722,
-            16.35486,
-            8.794395
+            0.09077876,
+            0.1264459,
+            0.1236853,
+            0.0899307951,
+            0.0719132647,
+            0.03641722,
+            0.01635486,
+            0.008794395
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/l"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -15627,26 +15627,26 @@
             "MolWeight": 408.87
           },
           "Values": [
-            105.7286,
-            121.809,
-            87.63819,
-            66.73367,
-            52.26131,
-            42.61306,
-            37.38694,
-            32.96482,
-            23.71859,
-            19.29648,
-            14.4723587,
-            8.442211,
-            5.628141,
-            3.21608,
-            2.41206,
-            1.60804,
-            0.8040201
+            0.105728604,
+            0.121809,
+            0.08763819,
+            0.06673367,
+            0.05226131,
+            0.04261306,
+            0.03738694,
+            0.0329648219,
+            0.02371859,
+            0.01929648,
+            0.0144723589,
+            0.008442211,
+            0.005628141,
+            0.00321608,
+            0.00241206,
+            0.00160804,
+            0.00080402015
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/l"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -15774,21 +15774,21 @@
             "MolWeight": 408.87
           },
           "Values": [
-            44.84305,
-            167.6009,
-            137.3318,
-            85.76233,
-            63.90134,
-            33.07175,
-            19.0583,
-            11.7713,
-            9.529148,
-            7.847534,
-            5.605381,
-            3.923767
+            0.0448430479,
+            0.1676009,
+            0.1373318,
+            0.08576233,
+            0.06390134,
+            0.03307175,
+            0.0190583,
+            0.0117713008,
+            0.009529148,
+            0.00784753449,
+            0.005605381,
+            0.00392376725
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/l"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -16071,21 +16071,21 @@
             "MolWeight": 408.87
           },
           "Values": [
-            106.5117,
-            141.4767,
-            93.88641,
-            75.28566,
-            38.81871,
-            25.76077,
-            18.79198,
-            10.99249,
-            7.068302,
-            4.134646,
-            2.270724,
-            1.370839
+            0.106511705,
+            0.1414767,
+            0.09388641,
+            0.0752856657,
+            0.0388187133,
+            0.0257607717,
+            0.018791981,
+            0.01099249,
+            0.007068302,
+            0.004134646,
+            0.00227072416,
+            0.001370839
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/l"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -16833,18 +16833,18 @@
             "MolWeight": 408.87
           },
           "Values": [
-            61.5235062,
-            110.6205,
-            86.49405,
-            59.23832,
-            32.32876,
-            18.32372,
-            14.3272991,
-            13.79514,
-            10.19106
+            0.06152351,
+            0.1106205,
+            0.08649405,
+            0.0592383221,
+            0.03232876,
+            0.0183237214,
+            0.0143273,
+            0.01379514,
+            0.0101910606
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/l"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -17944,9 +17944,10 @@
             "MolWeight": 408.87
           },
           "Values": [
-            0.032
+            3.2
           ],
-          "Dimension": "Fraction"
+          "Dimension": "Fraction",
+          "Unit": "%"
         }
       ],
       "BaseGrid": {
@@ -19038,22 +19039,22 @@
             "MolWeight": 408.87
           },
           "Values": [
-            67.09619,
-            98.9273,
-            83.24817,
-            68.55917,
-            32.92793,
-            21.39,
-            15.81478,
-            11.69272,
-            8.833561,
-            7.930442,
-            5.15162,
-            4.152092,
-            3.808871
+            0.06709619,
+            0.0989273041,
+            0.08324817,
+            0.06855918,
+            0.03292793,
+            0.0213899985,
+            0.0158147812,
+            0.01169272,
+            0.00883356,
+            0.007930442,
+            0.00515162,
+            0.004152092,
+            0.003808871
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/l"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -20695,8 +20696,8 @@
         {
           "Name": "IC tablet",
           "Classifiables": [
-            "PO SD 10 mg IR tablet (perm)",
-            "PO SD 5 mg IR tablet (perm)"
+            "PO SD 10 mg IC tablet (Chang 2015) (perm)",
+            "PO SD 5 mg IC tablet (Chang 2015) (perm)"
           ]
         },
         {

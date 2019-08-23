@@ -17,14 +17,14 @@
                         "PO MD 2.5 mg (perm)",
                         "PO MD 20 mg (perm)",
                         "PO MD 50 mg (perm)",
-                        "PO SD 10 mg IR tablet (perm)",
+                        "PO SD 10 mg IC tablet (Chang 2015) (perm)",
                         "PO SD 100 mg (perm)",
                         "PO SD 2.5 mg (perm)",
                         "PO SD 20 mg (perm)",
                         "PO SD 250 mg (perm)",
                         "PO SD 250 mg fed (perm)",
                         "PO SD 5 mg (perm)",
-                        "PO SD 5 mg IR tablet (perm)",
+                        "PO SD 5 mg IC tablet (Chang 2015) (perm)",
                         "PO SD 50 mg (perm)",
                         "PO SD 500 mg (perm)"
                     ]
@@ -40,14 +40,14 @@
                         "PO MD 2.5 mg (perm)",
                         "PO MD 20 mg (perm)",
                         "PO MD 50 mg (perm)",
-                        "PO SD 10 mg IR tablet (perm)",
+                        "PO SD 10 mg IC tablet (Chang 2015) (perm)",
                         "PO SD 100 mg (perm)",
                         "PO SD 2.5 mg (perm)",
                         "PO SD 20 mg (perm)",
                         "PO SD 250 mg (perm)",
                         "PO SD 250 mg fed (perm)",
                         "PO SD 5 mg (perm)",
-                        "PO SD 5 mg IR tablet (perm)",
+                        "PO SD 5 mg IC tablet (Chang 2015) (perm)",
                         "PO SD 50 mg (perm)",
                         "PO SD 500 mg (perm)"
                     ]
@@ -239,17 +239,12 @@
             },
             {
                 "Project": "Dapagliflozin",
-                "Simulation": "PO SD 5 mg IR tablet (perm)",
+                "Simulation": "PO SD 5 mg IC tablet (Chang 2015) (perm)",
                 "SectionId": 33
             },
             {
                 "Project": "Dapagliflozin",
-                "Simulation": "PO SD 10 mg IR tablet (perm)",
-                "SectionId": 33
-            },
-            {
-                "Project": "Dapagliflozin",
-                "Simulation": "PO SD 20 mg IR tablet (perm)",
+                "Simulation": "PO SD 10 mg IC tablet (Chang 2015) (perm)",
                 "SectionId": 33
             },
             {
@@ -560,14 +555,14 @@
                         "OutputMappings": [
                             {
                                 "Project": "Dapagliflozin",
-                                "Simulation": "PO SD 5 mg IR tablet (perm)",
+                                "Simulation": "PO SD 5 mg IC tablet (Chang 2015) (perm)",
                                 "Output": "Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Chang 2015 - Study 1 Treatment A (single oral doses) - Dapagliflozin - PO - 5 mg - Plasma - agg. (n=36)",
                                 "Color": "#000000"
                             },
                             {
                                 "Project": "Dapagliflozin",
-                                "Simulation": "PO SD 10 mg IR tablet (perm)",
+                                "Simulation": "PO SD 10 mg IC tablet (Chang 2015) (perm)",
                                 "Output": "Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Chang 2015 - Study 2 Treatment A (single oral doses) - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=36)",
                                 "Color": "#000000"
@@ -589,7 +584,7 @@
             "SectionId": 31
         },
         {
-            "Name": "IR tablet",
+            "Name": "IC tablet (Chang 2015)",
             "Project": "Dapagliflozin",
             "Type": "Formulation",
             "SectionId": 31
