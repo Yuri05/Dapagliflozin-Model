@@ -1,2 +1,2 @@
-# Building and evaluation of a PBPK model for COMPOUND in adults
+# Building and Evaluation of a PBPK Model for Dapagliflozin in Adults
 

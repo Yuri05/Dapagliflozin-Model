@@ -1,3 +1,4 @@
-The final ``COMPOUND`` PBPK model applies metabolism by .... and adequately describes the pharmacokinetics of ``COMPOUND`` in adults receiving [...] ranging from [...] mg, including [...] different oral formulations. 
+The herein presented PBPK model adequately describes the pharmacokinetics of dapagliflozin in adults.
 
-This model could be applied for the investigation of DDI, and translation to special populations such as pediatrics with regard to ... metabolism.
+In particular, it applies quantitaitive metabolism by UGT1A9 and UGT2B7. Thus, the model is fit for purpose to be applied for the investigation of drug-drug interactions with regard to its UGT metabolism.
+
