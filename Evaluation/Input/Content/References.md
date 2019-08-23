@@ -1,0 +1,1 @@
+**Author YEAR** Author A, Doe J, Doe K. Clinical study to investigate the pharmacokinetics of COMPOUND after intravenous and oral administration. Clin Pharmacol Ther. YEAR Feb;83(2):293-9.

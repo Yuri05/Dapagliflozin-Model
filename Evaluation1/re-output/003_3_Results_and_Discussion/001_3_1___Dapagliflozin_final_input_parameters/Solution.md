@@ -1,3 +1,0 @@
-# Formulation: Solution
-
-Type: Dissolved
