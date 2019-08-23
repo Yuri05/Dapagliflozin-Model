@@ -551,7 +551,7 @@
                     },
                     {
                         "Caption": "PO SD IC tablets (Chang 2015)",
-                        "Symbol": "Diamond",
+                        "Symbol": "Asterisk",
                         "OutputMappings": [
                             {
                                 "Project": "Dapagliflozin",
