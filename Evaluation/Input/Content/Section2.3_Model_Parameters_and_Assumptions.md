@@ -48,7 +48,7 @@ This is the result of the final parameter identification.
 | `Permeability`                     | 3.75E-04        | cm/min     |
 | `Specific intestinal permeability` | 3.97E-05        | cm/min     |
 | `Solubility at reference pH`       | 0.221           | mg/ml      |
-| `CLspec/[Enzyme]` (UGT1A9])        | 0.399           | l/µmol/min |
+| `CLspec/[Enzyme]` (UGT1A9)         | 0.399           | l/µmol/min |
 | `CLspec/[Enzyme]` (UGT2B7)         | 6.60E-03        | l/µmol/min |
 | `CLspec/[Enzyme]` (Hepatic-CYP)    | 0.143           | l/µmol/min |
 | `GFR fraction`                     | 0.79            |            |
