@@ -3,7 +3,7 @@
     "Projects": [
         {
             "Id": "Dapagliflozin",
-            "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Dapagliflozin-model/master/Dapagliflozin.json",
+            "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Dapagliflozin-Model/master/Dapagliflozin-Model.json",
             "BuildingBlocks": [],
             "SimulationParameters": [
                 {
