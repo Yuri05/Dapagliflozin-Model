@@ -6,5 +6,5 @@ Using published clinical data, the objective is to establish a whole-body PBPK m
 
 The herein presented model building and evaluation report evaluates the performance of the PBPK model for dapagliflozin in (healthy) adults.
 
-The presented dapagliflozin PBPK model as well as the respective evaluation plan and evaluation report are provided open-source (https://github.com/sfrechen/Dapagliflozin).
+The presented dapagliflozin PBPK model as well as the respective evaluation plan and evaluation report are provided open-source (https://github.com/Open-Systems-Pharmacology/Dapagliflozin-model).
 
