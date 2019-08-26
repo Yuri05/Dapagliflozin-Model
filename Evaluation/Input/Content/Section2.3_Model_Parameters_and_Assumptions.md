@@ -10,7 +10,7 @@ During model building, two different "data scenarios" regarding mass balance inf
 
 Scenario 1 did not allow to find a good description of the pharmacokinetic data. Thus, scenario 2 was used during further model building. Note that this increased the fraction metabolized via UGT1A9 and UGT2B7.
 
-The dissolution of the tablets from Chang et *al.* ([Chang 2015](#5 References)) - referenced as individual component (IC) tablets - were implemented via an empirical Weibull dissolution tablet. The respective parameters were identified via manual sensitivity analysis.
+The dissolution of the tablets from Chang *et al.* ([Chang 2015](#5 References)) - referenced as individual component (IC) tablets - were implemented via an empirical Weibull dissolution tablet. The respective parameters were identified via manual sensitivity analysis.
 
 ### 2.3.2	Distribution
 
