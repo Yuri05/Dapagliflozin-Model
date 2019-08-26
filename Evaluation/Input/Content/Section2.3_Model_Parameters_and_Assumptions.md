@@ -50,7 +50,7 @@ This is the result of the final parameter identification.
 | `Solubility at reference pH`       | 0.221           | mg/ml      |
 | `CLspec/[Enzyme]` (UGT1A9])        | 0.399           | l/µmol/min |
 | `CLspec/[Enzyme]` (UGT2B7)         | 6.60E-03        | l/µmol/min |
-| `CLspec/[Enzyme]` (Hep-CYP)        | 0.143           | l/µmol/min |
+| `CLspec/[Enzyme]` (Hepatic-CYP)    | 0.143           | l/µmol/min |
 | `GFR fraction`                     | 0.79            |            |
 | `Blood/Plasma concentration ratio` | 0.88 FIXED      |            |
 
