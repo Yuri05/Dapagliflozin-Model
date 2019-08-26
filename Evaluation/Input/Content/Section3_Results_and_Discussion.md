@@ -3,7 +3,7 @@ The PBPK model for dapagliflozin was developed and verified with clinical pharma
 The model was evaluated covering data from studies including in particular
 
 * intravenous and oral administrations.
-* single and multiple dose .
+* single and multiple doses.
 * a dose range of 2.5 to 500 mg.
 * fasted and fed state administrations.
 

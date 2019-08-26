@@ -5,7 +5,7 @@ A literature search was performed to collect available information on physiochem
 | **Parameter**   | **Unit** | **Value** | Source                                           | **Description**                                 |
 | :-------------- | -------- | --------- | ------------------------------------------------ | ----------------------------------------------- |
 | MW              | g/mol    | 408.873   | [DrugBank DB06292](# 5 References)               | Molecular weight                                |
-| pKa             |          | 12.57     | [DrugBank DB06292](# 5 References)               | Acid dissociation constant                      |
+| pK<sub>a</sub>  |          | 12.57     | [DrugBank DB06292](# 5 References)               | Acid dissociation constant                      |
 | Solubility (pH) | mg/mL    | 0.173 (7) | [DrugBank DB06292](# 5 References)               | Aqueous Solubility                              |
 | logP            |          | 2.7       | [DrugBank DB06292](#5 References) (experimental) | Partition coefficient between octanol and water |
 | fu              | %        | 9         | [Obermeier 2009](#5 References)                  | Fraction unbound in plasma                      |

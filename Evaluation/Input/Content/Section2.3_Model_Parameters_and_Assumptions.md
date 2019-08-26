@@ -1,12 +1,12 @@
 ### 2.3.1	Absorption
 
-Studies including oral applications of dapagliflozin used for model building applied either a capsule or immediate release tablets. They all demonstrated rapid and extensive absorption. The availability of dense data during absorption, data covering a broad range of doses (from 2.5 up to 500 mg, and intravenous pharmacokinetic data ([Boulton 2013](#5 References)) allowed to the identification of the *in vivo* intestinal permeability and an effective *in vivo* solubility  in this PBPK model (see also [Section 2.3.4](#2.3.4	Automated Parameter Identification)).
+Studies including oral applications of dapagliflozin used for model building applied either a capsule or immediate release tablets. They all demonstrated rapid and extensive absorption. The availability of dense data during absorption, data covering a broad range of doses (from 2.5 up to 500 mg, and intravenous pharmacokinetic data ([Boulton 2013](#5 References)) allowed to the identification of the *in vivo* intestinal permeability and an effective *in vivo* solubility in this PBPK model (see also [Section 2.3.4](#2.3.4	Automated Parameter Identification)).
 
 During model building, two different "data scenarios" regarding mass balance information were tested:
 
-**Scenario 1**: The measured fraction excreted to feces as unchanged drug of approx. 19% resulted from incomplete absorption (assuming fa ~ 0.81).
+**Scenario 1**: The measured fraction excreted to feces as unchanged drug of approx. 19% resulted from incomplete absorption (assuming f<sub>a</sub>  ~ 0.81).
 
-**Scenario 2**:  The measured fraction excretion to feces of unchanged dapagliflozin resulted from originally glucuronidated metabolites that underwent biliary excretion and subsequent degradation to dapagliflozin by bacterial glucurinodases in feces (assuming fa ~ 1). This phenomenon of cleavage of glucuronides by beta-glucuronidases in the colon of hepatobiliary secreted glucuronides to the aglycone (e.g. parent drug) was reported previously ([Blaut 2013](#5 References), [Molly 1993](#5 References), [Possemiers 2004](#5 References), [Sakamoto 2002](#5 References)). 
+**Scenario 2**:  The measured fraction excretion to feces of unchanged dapagliflozin resulted from originally glucuronidated metabolites that underwent biliary excretion and subsequent degradation to dapagliflozin by bacterial glucurinodases in feces (assuming f<sub>a</sub> ~ 1). This phenomenon of cleavage of glucuronides by beta-glucuronidases in the colon of hepatobiliary secreted glucuronides to the aglycone (e.g. parent drug) was reported previously ([Blaut 2013](#5 References), [Molly 1993](#5 References), [Possemiers 2004](#5 References), [Sakamoto 2002](#5 References)). 
 
 Scenario 1 did not allow to find a good description of the pharmacokinetic data. Thus, scenario 2 was used during further model building. Note that this increased the fraction metabolized via UGT1A9 and UGT2B7.
 
@@ -16,9 +16,9 @@ The dissolution of the tablets from Chang et *al.* ([Chang 2015](#5 References))
 
 Dapagliflozin is moderately protein bound (91 %) in plasma ([Kasichayanula 2014](#5 References)). This value was used in this PBPK model. It was assumed that the major binding partner is albumin.
 
-An important parameter influencing the resulting volume of distribution is lipophilicty. The reported experimental logP value of 2.7 ([DrugBank DB06292](#5 References)) served as a starting value. Finally, the model parameters "lipophilicity" and "logP (veg.oil/water)" were optimized to match best clinical data (see also [Section 2.3.4](#2.3.4	Parameter identification)).
+An important parameter influencing the resulting volume of distribution is lipophilicty. The reported experimental logP value of 2.7 ([DrugBank DB06292](#5 References)) served as a starting value. Finally, the model parameters `Lipophilicity` and `logP (veg.oil/water)` were optimized to match best clinical data (see also [Section 2.3.4](#2.3.4	Parameter identification)).
 
-After testing the available organ-plasma partition coefficient and cell permeability calculation methods built in PK-Sim, observed clinical data was best described by choosing the partition coefficient calculation by ``Rodgers and Rowland`` and cellular permeability calculation by ``PK-Sim Standard``. The specific organ permeability was also optimized to match best clinical data (see also [Section 2.3.4](#2.3.4	Automated Parameter Identification)).
+After testing the available organ-plasma partition coefficient and cell permeability calculation methods built in PK-Sim, observed clinical data was best described by choosing the partition coefficient calculation by `Rodgers and Rowland` and cellular permeability calculation by `PK-Sim Standard`. The specific organ permeability was also optimized to match best clinical data (see also [Section 2.3.4](#2.3.4	Automated Parameter Identification)).
 
 The reported blood to plasma ratio of 0.88 ([Obermeier 2009](#5 References)) was fixed in the model.
 
@@ -43,14 +43,14 @@ This is the result of the final parameter identification.
 
 | Model Parameter                    | Optimized Value | Unit       |
 | ---------------------------------- | --------------- | ---------- |
-| Lipophilicity                      | 2.672           | Log Units  |
-| logP (veg.oil/water)               | 2.083           | Log Units  |
-| Permeability                       | 3.75E-04        | cm/min     |
-| Specific intestinal   permeability | 3.97E-05        | cm/min     |
-| Solubility at reference pH         | 0.221           | mg/ml      |
-| CLspec/[UGT1A9]                    | 0.399           | l/µmol/min |
-| CLspec/[UGT2B7]                    | 6.60E-03        | l/µmol/min |
-| CLspec/[Hep-CYP]                   | 0.143           | l/µmol/min |
-| GFR fraction                       | 0.79            |            |
-| Blood/Plasma concentration   ratio | 0.88 FIXED      |            |
+| `Lipophilicity`                    | 2.672           | Log Units  |
+| `logP (veg.oil/water)`             | 2.083           | Log Units  |
+| `Permeability`                     | 3.75E-04        | cm/min     |
+| `Specific intestinal permeability` | 3.97E-05        | cm/min     |
+| `Solubility at reference pH`       | 0.221           | mg/ml      |
+| `CLspec/[Enzyme]` (UGT1A9])        | 0.399           | l/µmol/min |
+| `CLspec/[Enzyme]` (UGT2B7)         | 6.60E-03        | l/µmol/min |
+| `CLspec/[Enzyme]` (Hep-CYP)        | 0.143           | l/µmol/min |
+| `GFR fraction`                     | 0.79            |            |
+| `Blood/Plasma concentration ratio` | 0.88 FIXED      |            |
 

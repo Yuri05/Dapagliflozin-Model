@@ -6,7 +6,7 @@
 
 **DeFronzo 2013** DeFronzo RA, Hompesch M, Kasichayanula S, Liu X, Hong Y, Pfister M, Morrow LA, Leslie BR, Boulton DW, Ching A, LaCreta FP, Griffen SC. Characterization of renal glucose reabsorption in response to dapagliflozin in healthy subjects and subjects with type 2 diabetes. Diabetes Care. 2013 Oct;36(10):3169-76. doi: 10.2337/dc13-0387.	
 
-**DrugBank DB06292** https://www.drugbank.ca/drugs/DB06292	
+**DrugBank DB06292** (https://www.drugbank.ca/drugs/DB06292)	
 
 **FDA Clinical Pharmacology Review for NDA 202293** (https://www.accessdata.fda.gov/drugsatfda_docs/nda/2014/202293Orig1s000ClinPharmR.pdf)	
 
