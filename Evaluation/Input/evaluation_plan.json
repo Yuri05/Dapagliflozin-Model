@@ -214,6 +214,21 @@
             },
             {
                 "Project": "Dapagliflozin",
+                "Simulation": "PO SD 5 mg IC tablet (Chang 2015) (perm)",
+                "SectionId": 332
+            },
+            {
+                "Project": "Dapagliflozin",
+                "Simulation": "PO SD 10 mg IC tablet (Chang 2015) (perm)",
+                "SectionId": 332
+            },
+            {
+                "Project": "Dapagliflozin",
+                "Simulation": "PO SD 250 mg fed (perm)",
+                "SectionId": 332
+            },
+            {
+                "Project": "Dapagliflozin",
                 "Simulation": "PO MD 2.5 mg (perm)",
                 "SectionId": 332
             },
@@ -235,21 +250,6 @@
             {
                 "Project": "Dapagliflozin",
                 "Simulation": "PO MD 100 mg (perm)",
-                "SectionId": 332
-            },
-            {
-                "Project": "Dapagliflozin",
-                "Simulation": "PO SD 5 mg IC tablet (Chang 2015) (perm)",
-                "SectionId": 332
-            },
-            {
-                "Project": "Dapagliflozin",
-                "Simulation": "PO SD 10 mg IC tablet (Chang 2015) (perm)",
-                "SectionId": 332
-            },
-            {
-                "Project": "Dapagliflozin",
-                "Simulation": "PO SD 250 mg fed (perm)",
                 "SectionId": 332
             }
         ],
@@ -357,13 +357,6 @@
                                 "Project": "Dapagliflozin",
                                 "Simulation": "PO SD 10 mg (perm)",
                                 "Output": "Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Komoroski 2009 - SAD 10 mg (Urine) - Dapagliflozin - PO - 10 mg - Urine - agg. (n=6)",
-                                "Color": "#000000"
-                            },
-                            {
-                                "Project": "Dapagliflozin",
-                                "Simulation": "PO SD 10 mg (perm)",
-                                "Output": "Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Komoroski 2009 - MAD 10 mg (day 1) - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=6)",
                                 "Color": "#000000"
                             },
@@ -420,41 +413,6 @@
                                 "Project": "Dapagliflozin",
                                 "Simulation": "PO SD 50 mg (perm)",
                                 "Output": "Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Kasichayanula 2008 - Mass Balance of 14C-dapagliflozin 2OG Gluc - Dapagliflozin-2-O-glucuronide - PO - 50 mg - Fraction - agg. (n=6)",
-                                "Color": "#000000"
-                            },
-                            {
-                                "Project": "Dapagliflozin",
-                                "Simulation": "PO SD 50 mg (perm)",
-                                "Output": "Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Kasichayanula 2008 - Mass Balance of 14C-dapagliflozin 2OG Gluc (incl. unchanged feces exret.) - Dapagliflozin-2-O-glucuronide - PO - 50 mg - Fraction - agg. (n=6)",
-                                "Color": "#000000"
-                            },
-                            {
-                                "Project": "Dapagliflozin",
-                                "Simulation": "PO SD 50 mg (perm)",
-                                "Output": "Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Kasichayanula 2008 - Mass Balance of 14C-dapagliflozin 3OG Gluc - Dapagliflozin-3-O-glucuronide - PO - 50 mg - Fraction - agg. (n=6)",
-                                "Color": "#000000"
-                            },
-                            {
-                                "Project": "Dapagliflozin",
-                                "Simulation": "PO SD 50 mg (perm)",
-                                "Output": "Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Kasichayanula 2008 - Mass Balance of 14C-dapagliflozin 3OG Gluc (incl. unchanged feces exret.) - Dapagliflozin-3-O-glucuronide - PO - 50 mg - Fraction - agg. (n=6)",
-                                "Color": "#000000"
-                            },
-                            {
-                                "Project": "Dapagliflozin",
-                                "Simulation": "PO SD 50 mg (perm)",
-                                "Output": "Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Kasichayanula 2008 - Mass Balance of 14C-dapagliflozin oxid Metab - Dapagliflozin oxidative metabolites - PO - 50 mg - Fraction - agg. (n=6)",
-                                "Color": "#000000"
-                            },
-                            {
-                                "Project": "Dapagliflozin",
-                                "Simulation": "PO SD 50 mg (perm)",
-                                "Output": "Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Komoroski 2009 - SAD 50 mg - Dapagliflozin - PO - 50 mg - Plasma - agg. (n=6)",
                                 "Color": "#000000"
                             },
@@ -497,7 +455,7 @@
                     },
                     {
                         "Caption": "PO SD fed",
-                        "Symbol": "Circle",
+                        "Symbol": "Square",
                         "OutputMappings": [
                             {
                                 "Project": "Dapagliflozin",
@@ -572,7 +530,197 @@
                 ]
             }
         ],
-        "ComparisonTimeProfilePlots": [],
+        "ComparisonTimeProfilePlots": [
+            {
+                "Title": "Multiple Dose Escalation Study (day 1)",
+                "SectionId": 333,
+                "SimulationDuration": 24,
+                "TimeUnit": "h",
+                "OutputMappings": [
+                    {
+                        "Project": "Dapagliflozin",
+                        "Simulation": "PO MD 2.5 mg (perm)",
+                        "Output": "Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)",
+                        "ObservedData": "664 - Komoroski 2009 - MAD 2.5 mg (day 1) - Dapagliflozin - PO - 2.5 mg - Plasma - agg. (n=6)",
+                        "Caption": "2.5 mg",
+                        "Color": "#FF0000",
+                        "Symbol": "Triangle",
+                        "StartTime": 0,
+                        "TimeUnit": "h"
+                    },
+                    {
+                        "Project": "Dapagliflozin",
+                        "Simulation": "PO MD 10 mg (perm)",
+                        "Output": "Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)",
+                        "ObservedData": "665 - Komoroski 2009 - MAD 10 mg (day 1) - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=6).json",
+                        "Caption": "10 mg",
+                        "Color": "#FF0000",
+                        "Symbol": "Circle",
+                        "StartTime": 0,
+                        "TimeUnit": "h"
+                    },
+                    {
+                        "Project": "Dapagliflozin",
+                        "Simulation": "PO MD 20 mg (perm)",
+                        "Output": "Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)",
+                        "ObservedData": "666 - Komoroski 2009 - MAD 20 mg (day 1) - Dapagliflozin - PO - 20 mg - Plasma - agg. (n=6).json",
+                        "Caption": "20 mg",
+                        "Color": "#FF0000",
+                        "Symbol": "Cross",
+                        "StartTime": 0,
+                        "TimeUnit": "h"
+                    },
+                    {
+                        "Project": "Dapagliflozin",
+                        "Simulation": "PO MD 50 mg (perm)",
+                        "Output": "Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)",
+                        "ObservedData": "667 - Komoroski 2009 - MAD 50 mg (day 1) - Dapagliflozin - PO - 50 mg - Plasma - agg. (n=6).json",
+                        "Caption": "50 mg",
+                        "Color": "#FF0000",
+                        "Symbol": "Diamond",
+                        "StartTime": 0,
+                        "TimeUnit": "h"
+                    },
+                    {
+                        "Project": "Dapagliflozin",
+                        "Simulation": "PO MD 100 mg (perm)",
+                        "Output": "Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)",
+                        "ObservedData": "668 - Komoroski 2009 - MAD 100 mg (day 1) - Dapagliflozin - PO - 100 mg - Plasma - agg. (n=6).json",
+                        "Caption": "100 mg",
+                        "Color": "#FF0000",
+                        "Symbol": "Square",
+                        "StartTime": 0,
+                        "TimeUnit": "h"
+                    }
+                ]
+            },
+            {
+                "Title": "Multiple Dose Escalation Study (day 7)",
+                "SectionId": 333,
+                "SimulationDuration": 24,
+                "TimeUnit": "h",
+                "OutputMappings": [
+                    {
+                        "Project": "Dapagliflozin",
+                        "Simulation": "PO MD 2.5 mg (perm)",
+                        "Output": "Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)",
+                        "ObservedData": "664 - Komoroski 2009 - MAD 2.5 mg (day 7 and day 14) - Dapagliflozin - PO - 2.5 mg - Plasma - agg. (n=6)",
+                        "Caption": "2.5 mg",
+                        "Color": "#FF0000",
+                        "Symbol": "Triangle",
+                        "StartTime": 144,
+                        "TimeUnit": "h"
+                    },
+                    {
+                        "Project": "Dapagliflozin",
+                        "Simulation": "PO MD 10 mg (perm)",
+                        "Output": "Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)",
+                        "ObservedData": "665 - Komoroski 2009 - MAD 10 mg (day 7 and day 14) - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=6).json",
+                        "Caption": "10 mg",
+                        "Color": "#FF0000",
+                        "Symbol": "Circle",
+                        "StartTime": 144,
+                        "TimeUnit": "h"
+                    },
+                    {
+                        "Project": "Dapagliflozin",
+                        "Simulation": "PO MD 20 mg (perm)",
+                        "Output": "Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)",
+                        "ObservedData": "666 - Komoroski 2009 - MAD 20 mg (day 7 and day 14) - Dapagliflozin - PO - 20 mg - Plasma - agg. (n=6).json",
+                        "Caption": "20 mg",
+                        "Color": "#FF0000",
+                        "Symbol": "Cross",
+                        "StartTime": 144,
+                        "TimeUnit": "h"
+                    },
+                    {
+                        "Project": "Dapagliflozin",
+                        "Simulation": "PO MD 50 mg (perm)",
+                        "Output": "Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)",
+                        "ObservedData": "667 - Komoroski 2009 - MAD 50 mg (day 7 and day 14) - Dapagliflozin - PO - 50 mg - Plasma - agg. (n=6).json",
+                        "Caption": "50 mg",
+                        "Color": "#FF0000",
+                        "Symbol": "Diamond",
+                        "StartTime": 144,
+                        "TimeUnit": "h"
+                    },
+                    {
+                        "Project": "Dapagliflozin",
+                        "Simulation": "PO MD 100 mg (perm)",
+                        "Output": "Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)",
+                        "ObservedData": "668 - Komoroski 2009 - MAD 100 mg (day 7 and day 14) - Dapagliflozin - PO - 100 mg - Plasma - agg. (n=6).json",
+                        "Caption": "100 mg",
+                        "Color": "#FF0000",
+                        "Symbol": "Square",
+                        "StartTime": 144,
+                        "TimeUnit": "h"
+                    }
+                ]
+            },
+            {
+                "Title": "Multiple Dose Escalation Study (day 14)",
+                "SectionId": 333,
+                "SimulationDuration": 24,
+                "TimeUnit": "h",
+                "OutputMappings": [
+                    {
+                        "Project": "Dapagliflozin",
+                        "Simulation": "PO MD 2.5 mg (perm)",
+                        "Output": "Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)",
+                        "ObservedData": "664 - Komoroski 2009 - MAD 2.5 mg (day 7 and day 14) - Dapagliflozin - PO - 2.5 mg - Plasma - agg. (n=6)",
+                        "Caption": "2.5 mg",
+                        "Color": "#FF0000",
+                        "Symbol": "Triangle",
+                        "StartTime": 312,
+                        "TimeUnit": "h"
+                    },
+                    {
+                        "Project": "Dapagliflozin",
+                        "Simulation": "PO MD 10 mg (perm)",
+                        "Output": "Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)",
+                        "ObservedData": "665 - Komoroski 2009 - MAD 10 mg (day 7 and day 14) - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=6).json",
+                        "Caption": "10 mg",
+                        "Color": "#FF0000",
+                        "Symbol": "Circle",
+                        "StartTime": 312,
+                        "TimeUnit": "h"
+                    },
+                    {
+                        "Project": "Dapagliflozin",
+                        "Simulation": "PO MD 20 mg (perm)",
+                        "Output": "Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)",
+                        "ObservedData": "666 - Komoroski 2009 - MAD 20 mg (day 7 and day 14) - Dapagliflozin - PO - 20 mg - Plasma - agg. (n=6).json",
+                        "Caption": "20 mg",
+                        "Color": "#FF0000",
+                        "Symbol": "Cross",
+                        "StartTime": 312,
+                        "TimeUnit": "h"
+                    },
+                    {
+                        "Project": "Dapagliflozin",
+                        "Simulation": "PO MD 50 mg (perm)",
+                        "Output": "Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)",
+                        "ObservedData": "667 - Komoroski 2009 - MAD 50 mg (day 7 and day 14) - Dapagliflozin - PO - 50 mg - Plasma - agg. (n=6).json",
+                        "Caption": "50 mg",
+                        "Color": "#FF0000",
+                        "Symbol": "Diamond",
+                        "StartTime": 312,
+                        "TimeUnit": "h"
+                    },
+                    {
+                        "Project": "Dapagliflozin",
+                        "Simulation": "PO MD 100 mg (perm)",
+                        "Output": "Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)",
+                        "ObservedData": "668 - Komoroski 2009 - MAD 100 mg (day 7 and day 14) - Dapagliflozin - PO - 100 mg - Plasma - agg. (n=6).json",
+                        "Caption": "100 mg",
+                        "Color": "#FF0000",
+                        "Symbol": "Square",
+                        "StartTime": 312,
+                        "TimeUnit": "h"
+                    }
+                ]
+            }
+        ],
         "DDIRatioPlots": [],
         "PKRatioPlots": []
     },
@@ -653,6 +801,11 @@
                             "Id": 332,
                             "Title": "3.3.2 Model Verification",
                             "Content": "Content/Concentration_time_profiles_verification.md"
+                        },
+                        {
+                            "Id": 333,
+                            "Title": "3.3.3 Overview",
+                            "Content": "Content/Concentration_time_profiles_overview.md"
                         }
                     ]
                 }

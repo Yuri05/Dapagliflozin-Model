@@ -31,7 +31,7 @@ The following studies were used for model building (training data):
 | [Kasichayanula 2012](#5 References)                          | Control phase with a single oral dose of 20 mg               |
 | [Kasichayanula 2013a](#5 References)                         | Control phases of study 1 and 2<br />(single oral doses of 10 mg) |
 | [Kasichayanula 2013b](#5 References)                         | Healthy subjects with normal kidney function<br />with a single oral dose of 50 mg |
-| [Komoroski 2009](#5 References) and<br />[FDA Clinical Pharmacology Review for NDA 202293](#5 References) | SAD 2.5 to 500 mg (fasted)                                   |
+| [Komoroski 2009](#5 References) and<br />[FDA Clinical Pharmacology Review for NDA 202293](#5 References) | SAD 2.5 to 500 mg (fasted)<br />MAD 2.5 to 100 mg (day 1 data only) |
 | [Vakkalagadda 2016](#5 References)                           | Dapagliflozin only (single oral dose 10 mg)                  |
 
 Kasichayanula *et al.* ([Kasichayanula 2008](#5 References)) investigated the mass balance of dapagliflozin in healthy subjects after a single oral dose of 50 mg. The following table gives an overview of the results:
@@ -80,7 +80,7 @@ The following studies were used for model verification:
 | Publication                                                  | Arm / Treatment / Information used for model verification    |
 | :----------------------------------------------------------- | :----------------------------------------------------------- |
 | [Chang 2015](#5 References)                                  | Study 1 Treatment A (single oral dose of 5 mg as IC tablet) and<br /> Study 2 Treatment A (single oral dose of 10 mg as IC tablet) |
-| [Komoroski 2009](#5 References) and<br />[FDA Clinical Pharmacology Review for NDA 202293](#5 References) | MAD 2.5 to 100 mg (day 1, 7 and 14)                          |
+| [Komoroski 2009](#5 References) and<br />[FDA Clinical Pharmacology Review for NDA 202293](#5 References) | MAD 2.5 to 100 mg (day 7 and 14)                             |
 | [Komoroski 2009](#5 References)                              | Single oral dose 250 mg (fed)                                |
 
 
