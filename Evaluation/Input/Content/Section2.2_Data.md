@@ -1,6 +1,6 @@
 ### 2.2.1	In vitro / physico-chemical Data
 
-A literature search was performed to collect available information on physiochemical properties of dapagliflozin. The obtained information from literature is summarized in the table below. 
+A literature search was performed to collect available information on physicochemical properties of dapagliflozin. The obtained information from literature is summarized in the table below. 
 
 | **Parameter**   | **Unit** | **Value** | Source                                           | **Description**                                 |
 | :-------------- | -------- | --------- | ------------------------------------------------ | ----------------------------------------------- |
@@ -46,7 +46,7 @@ Kasichayanula *et al.* ([Kasichayanula 2008](#5 References)) investigated the ma
 | - unchanged                | 15.40%   | 18.90%       |
 | - as metabolites           | 1.70%    | 2.09%        |
 
-** to sum up to total excretion of urine and feces, respectively
+** to sum up to total excretion of urine and feces, respectively.
 
 The metabolic pattern was determined as shown in the following table.
 
@@ -57,17 +57,17 @@ The metabolic pattern was determined as shown in the following table.
 | Dapagliflozin oxidative metabolites | 9.00%    | 9.11%        | 9.11%                                                        |
 | **SUM**                             |          | **76.01%**   | **94.92%**                                                   |
 
-** to sum to the values of metabolic quantifications from the table above (73.93% + 2.09%)
+** to sum up to the values of metabolic quantifications from the table above (73.93% + 2.09%)
 
 *** The fraction excretion to feces of unchanged dapagliflozin of 18.90% (see above) was added and distributed proportionally to Dapagliflozin-3-O-glucuronide and Dapagliflozin-2-O-glucuronide under the assumption that the measured fraction of unchanged dapagliflozin resulted from originally glucuronidated metabolites that underwent biliary excretion and subsequent degradation to dapagliflozin by bacterial glucurinodases in feces.
 
-The following table shows the final mass balance data used for model building under the assumption of that unchanged dapagliflozin molecules in feces were originally glucuronides. Please refer to  [Section 2.3](#2.3 Model Parameters and Assumptions) for rationale.
+The following table shows the final mass balance data used for model building under the assumption of that unchanged dapagliflozin molecules in feces were originally glucuronides. Please refer to [Section 2.3](#2.3 Model Parameters and Assumptions) for rationale.
 
 | Observer                                                     | Value      |
 | ------------------------------------------------------------ | ---------- |
 | Fraction excreted  to urine of unchanged dapagliflozin       | 1.23%      |
-| Fraction metabolized UGT1A9 (to  dapagliflozin-3-O-glucuronide) | 78.80%     |
-| Fraction metabolized UGT2B7 (to  dapagliflozin-3-O-glucuronide) | 7.01%      |
+| Fraction metabolized UGT1A9 (to dapagliflozin-3-O-glucuronide) | 78.80%     |
+| Fraction metabolized UGT2B7 (to dapagliflozin-2-O-glucuronide) | 7.01%      |
 | Fraction metabolized to oxidative  metabolites               | 9.11%      |
 | **SUM**                                                      | **96.15%** |
 
