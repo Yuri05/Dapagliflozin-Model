@@ -1,4 +1,4 @@
-**Blaut 2013**	Blaut, M., Ecology and physiology of the intestinal tract. Curr Top Microbiol Immunol, 2013. 358: p. 247-72.
+**Blaut 2013** Blaut, M., Ecology and physiology of the intestinal tract. Curr Top Microbiol Immunol, 2013. 358: p. 247-72.
 
 **Boulton 2013** Boulton DW, Kasichayanula S, Keung CF, Arnold ME, Christopher LJ, Xu XS, Lacreta F. Simultaneous oral therapeutic and intravenous 14C-microdoses to determine the absolute oral bioavailability of saxagliptin and dapagliflozin. Br J Clin Pharmacol. 2013 Mar;75(3):763-8. doi: 10.1111/j.1365-2125.2012.04391.x.	
 
@@ -26,7 +26,7 @@
 
 **Kasichayanula 2013b** Kasichayanula S, Liu X, Pe Benito M, Yao M, Pfister M, LaCreta FP, Humphreys WG, Boulton DW. The influence of kidney function on dapagliflozin exposure, metabolism and pharmacodynamics in healthy subjects and in patients with type 2 diabetes mellitus. Br J Clin Pharmacol. 2013 Sep;76(3):432-44. doi: 10.1111/bcp.12056.	
 
-**Kasichayanula 2014** Kasichayanula S, Liu X, Lacreta F, Griffen SC, Boulton DW. Clinical pharmacokinetics and pharmacodynamics of dapagliflozin, a selective inhibitor of sodium-glucose co-transporter type 2. Clin Pharmacokinet. 2014 Jan;53(1):17-27. doi: 10.1007/s40262-013-0104-3.	
+**Kasichayanula 2014** Kasichayanula S, Liu X, Lacreta F, Griffen SC, Boulton DW. Clinical pharmacokinetics and pharmacodynamics of dapagliflozin, a selective inhibitor of sodium-glucose co-transporter type 2. Clin Pharmacokinet. 2014 Jan;53(1):17-27. doi: 10.1007/s40262-013-0104-3.
 
 **Komoroski 2009** Komoroski B, Vachharajani N, Boulton D, Kornhauser D, Geraldes M, Li L, Pfister M. Dapagliflozin, a novel SGLT2 inhibitor, induces dose-dependent glucosuria in healthy subjects. Clin Pharmacol Ther. 2009 May;85(5):520-6. doi: 10.1038/clpt.2008.251.	
 
@@ -46,6 +46,6 @@
 
 **Sakamoto 2002**	Sakamoto, H., et al., Excretion of bisphenol A-glucuronide into the small intestine and deconjugation in the cecum of the rat. Biochim Biophys Acta, 2002. 1573(2): p. 171-6.
 
-**Schlender 2016** Schlender JF, Meyer M, Thelen K, Krauss M, Willmann S, Eissing T, Jaehde U. Development of a Whole-Body Physiologically Based Pharmacokinetic Approach to Assess the Pharmacokinetics of Drugs in Elderly Individuals. Clin Pharmacokinet. 2016 Dec;55(12):1573-1589. 	
+**Schlender 2016** Schlender JF, Meyer M, Thelen K, Krauss M, Willmann S, Eissing T, Jaehde U. Development of a Whole-Body Physiologically Based Pharmacokinetic Approach to Assess the Pharmacokinetics of Drugs in Elderly Individuals. Clin Pharmacokinet. 2016 Dec;55(12):1573-1589. 
 
 **Vakkalagadda 2016** Vakkalagadda B, Lubin S, Reynolds L, Liang D, Marion AS, LaCreta F, Boulton DW. Lack of a Pharmacokinetic Interaction Between Saxagliptin and Dapagliflozin in Healthy Subjects: A Randomized Crossover Study. Clin Ther. 2016 Aug;38(8):1890-9. doi: 10.1016/j.clinthera.2016.07.005.	
