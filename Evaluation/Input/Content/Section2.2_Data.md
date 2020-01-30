@@ -1,4 +1,4 @@
-### 2.2.1	In vitro / physico-chemical Data
+### 2.2.1	In vitro / physicochemical Data
 
 A literature search was performed to collect available information on physicochemical properties of dapagliflozin. The obtained information from literature is summarized in the table below. 
 
