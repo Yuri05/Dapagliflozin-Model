@@ -2,8 +2,12 @@
 
 
 
-| Version     | 0.1                          |
-| ----------- | ---------------------------- |
-| OSP Version | 8.0                          |
-| Author      | Sebastian Frechen (sfrechen) |
+
+
+| Version     | 0.1                                                          |
+| ----------- | ------------------------------------------------------------ |
+| Release     |                                                              |
+| Repository  | https://github.com/Open-Systems-Pharmacology/Dapagliflozin-Model |
+| OSP Version | 8.0                                                          |
+| Author      | Sebastian Frechen (sfrechen)                                 |
 
