@@ -4,12 +4,12 @@ A literature search was performed to collect available information on physicoche
 
 | **Parameter**   | **Unit** | **Value** | Source                                           | **Description**                                 |
 | :-------------- | -------- | --------- | ------------------------------------------------ | ----------------------------------------------- |
-| MW              | g/mol    | 408.873   | [DrugBank DB06292](#5 References)                | Molecular weight                                |
-| pK<sub>a</sub>  |          | 12.57     | [DrugBank DB06292](#5 References)                | Acid dissociation constant                      |
-| Solubility (pH) | mg/mL    | 0.173 (7) | [DrugBank DB06292](#5 References)                | Aqueous Solubility                              |
-| logP            |          | 2.7       | [DrugBank DB06292](#5 References) (experimental) | Partition coefficient between octanol and water |
-| fu              | %        | 9         | [Obermeier 2009](#5 References)                  | Fraction unbound in plasma                      |
-| B/P ratio       |          | 0.88      | [Obermeier 2009](#5 References)                  | Blood to plasma ratio                           |
+| MW              | g/mol    | 408.873   | [DrugBank DB06292](#5-References)                | Molecular weight                                |
+| pK<sub>a</sub>  |          | 12.57     | [DrugBank DB06292](#5-References)                | Acid dissociation constant                      |
+| Solubility (pH) | mg/mL    | 0.173 (7) | [DrugBank DB06292](#5-References)                | Aqueous Solubility                              |
+| logP            |          | 2.7       | [DrugBank DB06292](#5-References) (experimental) | Partition coefficient between octanol and water |
+| fu              | %        | 9         | [Obermeier 2009](#5-References)                  | Fraction unbound in plasma                      |
+| B/P ratio       |          | 0.88      | [Obermeier 2009](#5-References)                  | Blood to plasma ratio                           |
 
 ### 2.2.2 Clinical Data
 
@@ -21,20 +21,20 @@ The following studies were used for model building (training data):
 
 | Publication                                                  | Arm / Treatment / Information used for model building        |
 | :----------------------------------------------------------- | :----------------------------------------------------------- |
-| [Boulton 2013](#5 References)                                 | 14C-dapagliflozin intravenous and<br />Dapagliflozin oral administration |
-| [DeFronzo 2013](#5 References)                                | Healthy subjects with a single oral dose of 10 mg            |
-| [Imamura 2013](#5 References)                                 | Control phase with a single oral dose of 10 mg               |
-| [Kasichayanula 2008](#5 References)                           | Mass balance information                                     |
-| [Kasichayanula 2011a](#5 References)                          | Fasted, single oral dose of 10 mg                            |
-| [Kasichayanula 2011b](#5 References)                          | Control phases of study 1, 2 and 3<br />(single oral doses of 20 mg or 50 mg) |
-| [Kasichayanula 2011c](#5 References)                          | Healthy subjects with a single oral dose of 10 mg            |
-| [Kasichayanula 2012](#5 References)                           | Control phase with a single oral dose of 20 mg               |
-| [Kasichayanula 2013a](#5 References)                          | Control phases of study 1 and 2<br />(single oral doses of 10 mg) |
-| [Kasichayanula 2013b](#5 References)                          | Healthy subjects with normal kidney function<br />with a single oral dose of 50 mg |
-| [Komoroski 2009](#5 References) and<br />[FDA Clinical Pharmacology Review for NDA 202293](#5 References) | SAD 2.5 to 500 mg (fasted)<br />MAD 2.5 to 100 mg (day 1 data only) |
-| [Vakkalagadda 2016](#5 References)                            | Dapagliflozin only (single oral dose 10 mg)                  |
+| [Boulton 2013](#5-References)                                 | 14C-dapagliflozin intravenous and<br />Dapagliflozin oral administration |
+| [DeFronzo 2013](#5-References)                                | Healthy subjects with a single oral dose of 10 mg            |
+| [Imamura 2013](#5-References)                                 | Control phase with a single oral dose of 10 mg               |
+| [Kasichayanula 2008](#5-References)                           | Mass balance information                                     |
+| [Kasichayanula 2011a](#5-References)                          | Fasted, single oral dose of 10 mg                            |
+| [Kasichayanula 2011b](#5-References)                          | Control phases of study 1, 2 and 3<br />(single oral doses of 20 mg or 50 mg) |
+| [Kasichayanula 2011c](#5-References)                          | Healthy subjects with a single oral dose of 10 mg            |
+| [Kasichayanula 2012](#5-References)                           | Control phase with a single oral dose of 20 mg               |
+| [Kasichayanula 2013a](#5-References)                          | Control phases of study 1 and 2<br />(single oral doses of 10 mg) |
+| [Kasichayanula 2013b](#5-References)                          | Healthy subjects with normal kidney function<br />with a single oral dose of 50 mg |
+| [Komoroski 2009](#5-References) and<br />[FDA Clinical Pharmacology Review for NDA 202293](#5-References) | SAD 2.5 to 500 mg (fasted)<br />MAD 2.5 to 100 mg (day 1 data only) |
+| [Vakkalagadda 2016](#5-References)                            | Dapagliflozin only (single oral dose 10 mg)                  |
 
-Kasichayanula *et al.* ([Kasichayanula 2008](#5 References)) investigated the mass balance of dapagliflozin in healthy subjects after a single oral dose of 50 mg. The following table gives an overview of the results:
+Kasichayanula *et al.* ([Kasichayanula 2008](#5-References)) investigated the mass balance of dapagliflozin in healthy subjects after a single oral dose of 50 mg. The following table gives an overview of the results:
 
 | Output                     | reported | normalized** |
 | -------------------------- | -------- | ------------ |
@@ -61,7 +61,7 @@ The metabolic pattern was determined as shown in the following table.
 
 *** The fraction excretion to feces of unchanged dapagliflozin of 18.90% (see above) was added and distributed proportionally to Dapagliflozin-3-O-glucuronide and Dapagliflozin-2-O-glucuronide under the assumption that the measured fraction of unchanged dapagliflozin resulted from originally glucuronidated metabolites that underwent biliary excretion and subsequent degradation to dapagliflozin by bacterial glucurinodases in feces.
 
-The following table shows the final mass balance data used for model building under the assumption of that unchanged dapagliflozin molecules in feces were originally glucuronides. Please refer to [Section 2.3](#2.3 Model Parameters and Assumptions) for rationale.
+The following table shows the final mass balance data used for model building under the assumption of that unchanged dapagliflozin molecules in feces were originally glucuronides. Please refer to [Section 2.3](#2.3-Model-Parameters-and-Assumptions) for rationale.
 
 | Observer                                                     | Value      |
 | ------------------------------------------------------------ | ---------- |
@@ -79,8 +79,8 @@ The following studies were used for model verification:
 
 | Publication                                                  | Arm / Treatment / Information used for model verification    |
 | :----------------------------------------------------------- | :----------------------------------------------------------- |
-| [Chang 2015](#5 References)                                   | Study 1 Treatment A (single oral dose of 5 mg as IC tablet) and<br /> Study 2 Treatment A (single oral dose of 10 mg as IC tablet) |
-| [Komoroski 2009](#5 References) and<br />[FDA Clinical Pharmacology Review for NDA 202293](#5 References) | MAD 2.5 to 100 mg (day 7 and 14)                             |
-| [Komoroski 2009](#5 References)                               | Single oral dose 250 mg (fed)                                |
+| [Chang 2015](#5-References)                                   | Study 1 Treatment A (single oral dose of 5 mg as IC tablet) and<br /> Study 2 Treatment A (single oral dose of 10 mg as IC tablet) |
+| [Komoroski 2009](#5-References) and<br />[FDA Clinical Pharmacology Review for NDA 202293](#5-References) | MAD 2.5 to 100 mg (day 7 and 14)                             |
+| [Komoroski 2009](#5-References)                               | Single oral dose 250 mg (fed)                                |
 
 
