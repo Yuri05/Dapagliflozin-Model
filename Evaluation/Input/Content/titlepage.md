@@ -4,11 +4,11 @@
 
 
 
-| Version                 | 1.0                                                          |
-| ----------------------- | ------------------------------------------------------------ |
-| Release                 | https://github.com/Open-Systems-Pharmacology/Dapagliflozin-Model/releases/tag/v1.0 |
-| Repository              | https://github.com/Open-Systems-Pharmacology/Dapagliflozin-Model |
-| Qualification Framework | 2.1                                                          |
-| OSP Version             | 8.0                                                          |
-| Author                  | Sebastian Frechen (sfrechen)                                 |
+| Version                         | 1.0                                                          |
+| ------------------------------- | ------------------------------------------------------------ |
+| Repository                      | https://github.com/Open-Systems-Pharmacology/Dapagliflozin-Model |
+| Release                         | https://github.com/Open-Systems-Pharmacology/Dapagliflozin-Model/releases/tag/v1.0 |
+| OSP Version                     | 8.0                                                          |
+| Qualification Framework Version | 2.1                                                          |
+| Author                          | Sebastian Frechen (sfrechen)                                 |
 
