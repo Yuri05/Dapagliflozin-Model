@@ -1,7 +1,7 @@
 # Dapagliflozin
 Whole-body PBPK model of dapagliflozin.
 
-<a title="Yikrazuul / Public domain" href="https://commons.wikimedia.org/wiki/File:Dapagliflozin_structure.svg"><img width="512" alt="Dapagliflozin structure" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Dapagliflozin_structure.svg/512px-Dapagliflozin_structure.svg.png"></a>
+<a title="Dapagliflozin" href="https://commons.wikimedia.org/wiki/File:Dapagliflozin_structure.svg"><img width="512" alt="Dapagliflozin structure" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Dapagliflozin_structure.svg/512px-Dapagliflozin_structure.svg.png"></a>
 
 The herein presented PBPK model adequately describes the pharmacokinetics of dapagliflozin in adults.
 
