@@ -1,6 +1,8 @@
 # Dapagliflozin
 Whole-body PBPK model of dapagliflozin.
 
+<a title="Dapagliflozin" href="https://commons.wikimedia.org/wiki/File:Dapagliflozin_structure.svg"><img width="512" alt="Dapagliflozin structure" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Dapagliflozin_structure.svg/512px-Dapagliflozin_structure.svg.png"></a>
+
 The herein presented PBPK model adequately describes the pharmacokinetics of dapagliflozin in adults.
 
 In particular, it applies quantitative metabolism by UGT1A9 and UGT2B7. Thus, the model is fit for purpose to be applied for the investigation of drug-drug interactions with regard to its UGT metabolism.
