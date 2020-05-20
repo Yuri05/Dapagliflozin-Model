@@ -3,13 +3,19 @@ Whole-body PBPK model of dapagliflozin.
 
 <a title="Dapagliflozin" href="https://commons.wikimedia.org/wiki/File:Dapagliflozin_structure.svg"><img width="512" alt="Dapagliflozin structure" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Dapagliflozin_structure.svg/512px-Dapagliflozin_structure.svg.png"></a>
 
+This repository contains:
+
+- a PK-Sim snapshot (*.json) file of the current PBPK model
+- static content (e.g. text blocks, *.md files) as inputs for an evaluation plan
+- an evaluation plan (evaluation-plan.json) to create an evaluation report using the snapshot and static text blocks to display the performance of the model
+
+**The latest release of the snapshot of the model, the evaluation plan and the static content can be found [here](https://github.com/Open-Systems-Pharmacology/Erythromycin-Model/releases/latest).**
+
+**The latest release of the PK-Sim project model file and the respective evaluation report can be found [here](https://github.com/Open-Systems-Pharmacology/OSP-PBPK-Model-Library/releases).**
+
 The herein presented PBPK model adequately describes the pharmacokinetics of dapagliflozin in adults.
 
 In particular, it applies quantitative metabolism by UGT1A9 and UGT2B7. Thus, the model is fit for purpose to be applied for the investigation of drug-drug interactions with regard to its UGT metabolism.
-
-**The latest release of this model including a report on model building, model features and model evaluation can be found [here](../../releases/latest).**
-
-
 
 ## Code of conduct
 
