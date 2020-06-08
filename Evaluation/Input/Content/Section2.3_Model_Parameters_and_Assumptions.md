@@ -1,6 +1,6 @@
 ### 2.3.1 Absorption
 
-Studies including oral applications of dapagliflozin used for model building applied either a capsule or immediate release tablets. They all demonstrated rapid and extensive absorption. The availability of dense data during absorption, data covering a broad range of doses (from 2.5 up to 500 mg, and intravenous pharmacokinetic data ([Boulton 2013](#5-References)) allowed the identification of the *in vivo* intestinal permeability and an effective *in vivo* solubility in this PBPK model (see also [Section 2.3.4](#234-Automated-Parameter-Identification)).
+Studies including oral applications of dapagliflozin used for model building applied either a capsule or immediate release tablets. They all demonstrated rapid and extensive absorption. The availability of dense data during absorption, data covering a broad range of doses (from 2.5 up to 500 mg), and intravenous pharmacokinetic data ([Boulton 2013](#5-References)) allowed the identification of the *in vivo* intestinal permeability and an effective *in vivo* solubility in this PBPK model (see also [Section 2.3.4](#234-Automated-Parameter-Identification)).
 
 During model building, two different "data scenarios" regarding mass balance information were tested:
 

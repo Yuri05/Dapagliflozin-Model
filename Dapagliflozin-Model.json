@@ -4387,7 +4387,7 @@
               "NumberMode": "Normal"
             },
             {
-              "Unit": "µmol/l",
+              "Unit": "µg/l",
               "Dimension": "Concentration (molar)",
               "Type": "Y",
               "GridLines": false,
