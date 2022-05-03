@@ -59,7 +59,7 @@ The metabolic pattern was determined as shown in the following table.
 
 ** to sum up to the values of metabolic quantifications from the table above (73.93% + 2.09%)
 
-*** The fraction excretion to feces of unchanged dapagliflozin of 18.90% (see above) was added and distributed proportionally to dapagliflozin-3-O-glucuronide and dapagliflozin-2-O-glucuronide under the assumption that the measured fraction of unchanged dapagliflozin resulted from originally glucuronidated metabolites that underwent biliary excretion and subsequent degradation to dapagliflozin by bacterial glucurinodases in feces.
+*** The fraction excretion to feces of unchanged dapagliflozin of 18.90% (see above) was added and distributed proportionally to dapagliflozin-3-O-glucuronide and dapagliflozin-2-O-glucuronide under the assumption that the measured fraction of unchanged dapagliflozin resulted from originally glucuronidated metabolites that underwent biliary excretion and subsequent degradation to dapagliflozin by bacterial glucuronidases in feces.
 
 The following table shows the final mass balance data used for model building under the assumption of that unchanged dapagliflozin molecules in feces were originally glucuronides. Please refer to [Section 2.3](#23-model-parameters-and-assumptions) for rationale.
 

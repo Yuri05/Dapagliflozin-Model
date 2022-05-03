@@ -6,7 +6,7 @@ During model building, two different "data scenarios" regarding mass balance inf
 
 **Scenario 1**: The measured fraction excreted to feces as unchanged drug of approx. 19% resulted from incomplete absorption (assuming f<sub>a</sub>  ~ 0.81).
 
-**Scenario 2**:  The measured fraction excretion to feces of unchanged dapagliflozin resulted from originally glucuronidated metabolites that underwent biliary excretion and subsequent degradation to dapagliflozin by bacterial glucurinodases in feces (assuming f<sub>a</sub> ~ 1). The cleavage of hepatobiliary secreted glucuronides to the aglycone (e.g. parent drug) by beta-glucuronidases in the colon was reported previously ([Blaut 2013](#5-references), [Molly 1993](#5-references), [Possemiers 2004](#5-references), [Sakamoto 2002](#5-references)). 
+**Scenario 2**:  The measured fraction excretion to feces of unchanged dapagliflozin resulted from originally glucuronidated metabolites that underwent biliary excretion and subsequent degradation to dapagliflozin by bacterial glucuronidases in feces (assuming f<sub>a</sub> ~ 1). The cleavage of hepatobiliary secreted glucuronides to the aglycone (e.g. parent drug) by beta-glucuronidases in the colon was reported previously ([Blaut 2013](#5-references), [Molly 1993](#5-references), [Possemiers 2004](#5-references), [Sakamoto 2002](#5-references)). 
 
 Scenario 1 did not allow to find a good description of the pharmacokinetic data. Thus, scenario 2 was used during further model building. Note that this increased the fraction metabolized via UGT1A9 and UGT2B7.
 
@@ -24,7 +24,7 @@ The reported blood to plasma ratio of 0.88 ([Obermeier 2009](#5-references)) was
 
 ### 2.3.3 Metabolism and Elimination
 
-As previously described in [Section 2.2.2](#222-clinical-data),  mass balance data ([Kasichayanula 2008](#5-references), [Obermeier 2009](#5-references), [Kasichayanula 2014](#5-references)) indicated that UGT1A9 is predominatly responsible for the metabolism of dapagliflozin to dapagliflozin-3-O-glucuronide. A minor fraction is metabolized via UGT2B7 to dapagliflozin-2-O-glucuronide and via oxidative cyotochrome-P450 enzymes.
+As previously described in [Section 2.2.2](#222-clinical-data),  mass balance data ([Kasichayanula 2008](#5-references), [Obermeier 2009](#5-references), [Kasichayanula 2014](#5-references)) indicated that UGT1A9 is predominatly responsible for the metabolism of dapagliflozin to dapagliflozin-3-O-glucuronide. A minor fraction is metabolized via UGT2B7 to dapagliflozin-2-O-glucuronide and via oxidative cytochrome-P450 enzymes.
 
 In summary, three metabolic first order routes were implement into the model:
 
