@@ -24,7 +24,7 @@ The reported blood to plasma ratio of 0.88 ([Obermeier 2009](#5-references)) was
 
 ### 2.3.3 Metabolism and Elimination
 
-As previously described in [Section 2.2.2](#222-clinical-data),  mass balance data ([Kasichayanula 2008](#5-references), [Obermeier 2009](#5-references), [Kasichayanula 2014](#5-references)) indicated that UGT1A9 is predominatly responsible for the metabolism of dapagliflozin to dapagliflozin-3-O-glucuronide. A minor fraction is metabolized via UGT2B7 to dapagliflozin-2-O-glucuronide and via oxidative cyotochrome-P450 enzymes.
+As previously described in [Section 2.2.2](#222-clinical-data),  mass balance data ([Kasichayanula 2008](#5-references), [Obermeier 2009](#5-references), [Kasichayanula 2014](#5-references)) indicated that UGT1A9 is predominatly responsible for the metabolism of dapagliflozin to dapagliflozin-3-O-glucuronide. A minor fraction is metabolized via UGT2B7 to dapagliflozin-2-O-glucuronide and via oxidative cytochrome-P450 enzymes.
 
 In summary, three metabolic first order routes were implement into the model:
 
